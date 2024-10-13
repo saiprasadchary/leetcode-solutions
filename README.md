@@ -8,6 +8,7 @@
 ## Math
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0070-climbing-stairs) |
 | [0202-happy-number](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0202-happy-number) |
 | [1013-fibonacci-number](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1013-fibonacci-number) |
 ## Two Pointers
@@ -24,6 +25,7 @@
 ## Dynamic Programming
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0070-climbing-stairs) |
 | [1013-fibonacci-number](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1013-fibonacci-number) |
 ## Recursion
 |  |
@@ -32,5 +34,6 @@
 ## Memoization
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0070-climbing-stairs) |
 | [1013-fibonacci-number](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1013-fibonacci-number) |
 <!---LeetCode Topics End-->
