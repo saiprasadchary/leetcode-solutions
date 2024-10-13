@@ -11,6 +11,7 @@
 | [0070-climbing-stairs](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0070-climbing-stairs) |
 | [0202-happy-number](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0202-happy-number) |
 | [1013-fibonacci-number](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1013-fibonacci-number) |
+| [1236-n-th-tribonacci-number](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1236-n-th-tribonacci-number) |
 ## Two Pointers
 |  |
 | ------- |
@@ -27,6 +28,7 @@
 | ------- |
 | [0070-climbing-stairs](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0070-climbing-stairs) |
 | [1013-fibonacci-number](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1013-fibonacci-number) |
+| [1236-n-th-tribonacci-number](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1236-n-th-tribonacci-number) |
 ## Recursion
 |  |
 | ------- |
@@ -36,4 +38,5 @@
 | ------- |
 | [0070-climbing-stairs](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0070-climbing-stairs) |
 | [1013-fibonacci-number](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1013-fibonacci-number) |
+| [1236-n-th-tribonacci-number](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1236-n-th-tribonacci-number) |
 <!---LeetCode Topics End-->
