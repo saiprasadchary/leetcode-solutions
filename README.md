@@ -4,10 +4,12 @@
 ## Hash Table
 |  |
 | ------- |
+| [0013-roman-to-integer](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0013-roman-to-integer) |
 | [0202-happy-number](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0202-happy-number) |
 ## Math
 |  |
 | ------- |
+| [0013-roman-to-integer](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0013-roman-to-integer) |
 | [0070-climbing-stairs](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0070-climbing-stairs) |
 | [0202-happy-number](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0202-happy-number) |
 | [1013-fibonacci-number](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1013-fibonacci-number) |
@@ -22,6 +24,7 @@
 ## String
 |  |
 | ------- |
+| [0013-roman-to-integer](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0013-roman-to-integer) |
 | [0125-valid-palindrome](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0125-valid-palindrome) |
 | [0344-reverse-string](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0344-reverse-string) |
 | [0345-reverse-vowels-of-a-string](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0345-reverse-vowels-of-a-string) |
