@@ -41,4 +41,12 @@
 | [0070-climbing-stairs](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0070-climbing-stairs) |
 | [1013-fibonacci-number](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1013-fibonacci-number) |
 | [1236-n-th-tribonacci-number](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1236-n-th-tribonacci-number) |
+## Array
+|  |
+| ------- |
+| [0373-find-k-pairs-with-smallest-sums](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0373-find-k-pairs-with-smallest-sums) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0373-find-k-pairs-with-smallest-sums](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0373-find-k-pairs-with-smallest-sums) |
 <!---LeetCode Topics End-->
