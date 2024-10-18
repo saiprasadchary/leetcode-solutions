@@ -55,6 +55,7 @@
 ## Array
 |  |
 | ------- |
+| [0136-single-number](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0136-single-number) |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0373-find-k-pairs-with-smallest-sums) |
 ## Heap (Priority Queue)
 |  |
@@ -76,5 +77,6 @@
 ## Bit Manipulation
 |  |
 | ------- |
+| [0136-single-number](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0136-single-number) |
 | [0389-find-the-difference](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0389-find-the-difference) |
 <!---LeetCode Topics End-->
