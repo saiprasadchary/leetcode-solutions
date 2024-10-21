@@ -10,6 +10,7 @@
 | [0219-contains-duplicate-ii](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0219-contains-duplicate-ii) |
 | [0242-valid-anagram](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0242-valid-anagram) |
 | [0290-word-pattern](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0290-word-pattern) |
+| [0350-intersection-of-two-arrays-ii](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0387-first-unique-character-in-a-string](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0387-first-unique-character-in-a-string) |
 | [0389-find-the-difference](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0389-find-the-difference) |
 | [0926-find-and-replace-pattern](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0926-find-and-replace-pattern) |
@@ -28,6 +29,7 @@
 | [0202-happy-number](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0202-happy-number) |
 | [0344-reverse-string](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0344-reverse-string) |
 | [0345-reverse-vowels-of-a-string](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0345-reverse-vowels-of-a-string) |
+| [0350-intersection-of-two-arrays-ii](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0350-intersection-of-two-arrays-ii) |
 ## String
 |  |
 | ------- |
@@ -62,6 +64,7 @@
 | ------- |
 | [0136-single-number](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0136-single-number) |
 | [0219-contains-duplicate-ii](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0219-contains-duplicate-ii) |
+| [0350-intersection-of-two-arrays-ii](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0373-find-k-pairs-with-smallest-sums) |
 | [0926-find-and-replace-pattern](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0926-find-and-replace-pattern) |
 ## Heap (Priority Queue)
@@ -72,6 +75,7 @@
 |  |
 | ------- |
 | [0242-valid-anagram](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0242-valid-anagram) |
+| [0350-intersection-of-two-arrays-ii](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0389-find-the-difference](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0389-find-the-difference) |
 ## Queue
 |  |
@@ -90,4 +94,8 @@
 |  |
 | ------- |
 | [0219-contains-duplicate-ii](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0219-contains-duplicate-ii) |
+## Binary Search
+|  |
+| ------- |
+| [0350-intersection-of-two-arrays-ii](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0350-intersection-of-two-arrays-ii) |
 <!---LeetCode Topics End-->
