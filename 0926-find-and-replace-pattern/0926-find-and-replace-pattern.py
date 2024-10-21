@@ -20,6 +20,7 @@ class Solution(object):
         for word in words:
             if func(pattern, word):
                 l1.append(word);
+                print()
         return l1;
 
 
