@@ -11,6 +11,7 @@
 | [0290-word-pattern](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0290-word-pattern) |
 | [0387-first-unique-character-in-a-string](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0387-first-unique-character-in-a-string) |
 | [0389-find-the-difference](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0389-find-the-difference) |
+| [0926-find-and-replace-pattern](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0926-find-and-replace-pattern) |
 ## Math
 |  |
 | ------- |
@@ -38,6 +39,7 @@
 | [0345-reverse-vowels-of-a-string](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0345-reverse-vowels-of-a-string) |
 | [0387-first-unique-character-in-a-string](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0387-first-unique-character-in-a-string) |
 | [0389-find-the-difference](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0389-find-the-difference) |
+| [0926-find-and-replace-pattern](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0926-find-and-replace-pattern) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -59,6 +61,7 @@
 | ------- |
 | [0136-single-number](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0136-single-number) |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0373-find-k-pairs-with-smallest-sums) |
+| [0926-find-and-replace-pattern](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0926-find-and-replace-pattern) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
