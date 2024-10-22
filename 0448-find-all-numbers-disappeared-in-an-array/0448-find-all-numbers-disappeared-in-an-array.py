@@ -9,7 +9,7 @@ class Solution(object):
         for x in range(1, len(nums)+1):
             num_set.add(x)  
         # Remove each number that appears in nums
-        for num in set(nums):
+        for num in (nums):
             if num in num_set:
                 num_set.remove(num)
         
