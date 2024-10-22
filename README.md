@@ -13,6 +13,7 @@
 | [0350-intersection-of-two-arrays-ii](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0387-first-unique-character-in-a-string](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0387-first-unique-character-in-a-string) |
 | [0389-find-the-difference](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0389-find-the-difference) |
+| [0448-find-all-numbers-disappeared-in-an-array](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0926-find-and-replace-pattern](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0926-find-and-replace-pattern) |
 ## Math
 |  |
@@ -66,6 +67,7 @@
 | [0219-contains-duplicate-ii](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0219-contains-duplicate-ii) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0373-find-k-pairs-with-smallest-sums) |
+| [0448-find-all-numbers-disappeared-in-an-array](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0926-find-and-replace-pattern](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0926-find-and-replace-pattern) |
 ## Heap (Priority Queue)
 |  |
