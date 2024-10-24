@@ -1,12 +1,8 @@
 class Solution(object):
     def longestPalindrome(self, s):
-        """
-        :type s: str
-        :rtype: int
-        """
+        
         if len(s)==1:
             return 1
-        even,odd=0,0;
         count=0
         count_dict={};
         odd_found=False;
