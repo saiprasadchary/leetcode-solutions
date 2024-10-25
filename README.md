@@ -15,6 +15,7 @@
 | [0389-find-the-difference](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0389-find-the-difference) |
 | [0409-longest-palindrome](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0409-longest-palindrome) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
+| [0496-next-greater-element-i](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0496-next-greater-element-i) |
 | [0500-keyboard-row](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0500-keyboard-row) |
 | [0926-find-and-replace-pattern](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0926-find-and-replace-pattern) |
 ## Math
@@ -72,6 +73,7 @@
 | [0350-intersection-of-two-arrays-ii](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0373-find-k-pairs-with-smallest-sums) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
+| [0496-next-greater-element-i](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0496-next-greater-element-i) |
 | [0500-keyboard-row](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0500-keyboard-row) |
 | [0926-find-and-replace-pattern](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0926-find-and-replace-pattern) |
 ## Heap (Priority Queue)
@@ -109,4 +111,12 @@
 |  |
 | ------- |
 | [0409-longest-palindrome](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0409-longest-palindrome) |
+## Stack
+|  |
+| ------- |
+| [0496-next-greater-element-i](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0496-next-greater-element-i) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0496-next-greater-element-i](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0496-next-greater-element-i) |
 <!---LeetCode Topics End-->
