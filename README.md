@@ -76,6 +76,7 @@
 | [0496-next-greater-element-i](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0496-next-greater-element-i) |
 | [0500-keyboard-row](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0500-keyboard-row) |
 | [0926-find-and-replace-pattern](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0926-find-and-replace-pattern) |
+| [1878-check-if-array-is-sorted-and-rotated](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
