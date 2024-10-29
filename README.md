@@ -29,6 +29,7 @@
 ## Two Pointers
 |  |
 | ------- |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0125-valid-palindrome](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0125-valid-palindrome) |
 | [0202-happy-number](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0202-happy-number) |
 | [0344-reverse-string](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0344-reverse-string) |
@@ -68,6 +69,7 @@
 ## Array
 |  |
 | ------- |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0136-single-number](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0136-single-number) |
 | [0219-contains-duplicate-ii](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0219-contains-duplicate-ii) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0350-intersection-of-two-arrays-ii) |
