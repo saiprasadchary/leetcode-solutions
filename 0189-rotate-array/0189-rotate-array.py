@@ -11,9 +11,21 @@ class Solution(object):
 
         if k==0:
             return nums;
-        l1=nums[n-k:]+nums[:n-k];
-        for i in range(len(l1)):
-            nums[i]=l1[i];
+        temp=[]
+        for i in range(n-k):
+            temp.append(nums[i]);
+        print(temp)
+        
+        for j in range(n-k, n):
+            nums[j-(n-k)]=nums[j];
+        y=0
+        for x in range(k, n):
+            nums[x]=temp[y]
+            y+=1
+        
+        # l1=nums[n-k:]+nums[:n-k];
+        # for i in range(len(l1)):
+        #     nums[i]=l1[i];
         
         
         # for i in range(n-k):
