@@ -8,17 +8,11 @@ class Solution(object):
         maxi=0
         for i in range(len(nums)):
             if nums[i]!=1:
-                c=0;
-                if maxi<c:
-                    maxi=c;
-                
+                c=0
             else:
                 c+=1
                 maxi=max(maxi,c)
                 if maxi<c:
                     maxi=c;
-
-
-                print(maxi)
         return maxi
         
