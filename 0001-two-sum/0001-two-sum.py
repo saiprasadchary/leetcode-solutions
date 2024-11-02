@@ -5,9 +5,21 @@ class Solution(object):
         :type target: int
         :rtype: List[int]
         """
-        for i in range(len(nums)):
-            for j in range(i+1, len(nums)):
-                if nums[i]+nums[j]==target:
-                    return [i,j];
+        seen={};
+
+        for ind,val in enumerate(nums):
+            rem=target-val;
+
+            if rem in seen:
+                return (ind, seen[rem]);
+
+            seen[val]=ind 
+
+
+
+        # for i in range(len(nums)):
+        #     for j in range(i+1, len(nums)):
+        #         if nums[i]+nums[j]==target:
+        #             return [i,j];
                 
                     
