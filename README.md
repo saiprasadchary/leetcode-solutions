@@ -66,6 +66,7 @@
 | ------- |
 | [0053-maximum-subarray](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0053-maximum-subarray) |
 | [0070-climbing-stairs](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0070-climbing-stairs) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [1013-fibonacci-number](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1013-fibonacci-number) |
 | [1236-n-th-tribonacci-number](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1236-n-th-tribonacci-number) |
 ## Recursion
@@ -86,6 +87,7 @@
 | [0048-rotate-image](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0048-rotate-image) |
 | [0053-maximum-subarray](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0053-maximum-subarray) |
 | [0075-sort-colors](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0075-sort-colors) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0136-single-number](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0136-single-number) |
 | [0169-majority-element](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0189-rotate-array) |
