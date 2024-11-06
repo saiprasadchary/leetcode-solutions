@@ -45,6 +45,7 @@
 | [0344-reverse-string](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0344-reverse-string) |
 | [0345-reverse-vowels-of-a-string](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0345-reverse-vowels-of-a-string) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0350-intersection-of-two-arrays-ii) |
+| [2271-rearrange-array-elements-by-sign](https://github.com/saiprasadchary/leetcode-solutions/tree/master/2271-rearrange-array-elements-by-sign) |
 ## String
 |  |
 | ------- |
@@ -102,6 +103,7 @@
 | [0500-keyboard-row](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0500-keyboard-row) |
 | [0926-find-and-replace-pattern](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0926-find-and-replace-pattern) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1878-check-if-array-is-sorted-and-rotated) |
+| [2271-rearrange-array-elements-by-sign](https://github.com/saiprasadchary/leetcode-solutions/tree/master/2271-rearrange-array-elements-by-sign) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -160,4 +162,8 @@
 | ------- |
 | [0053-maximum-subarray](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0053-maximum-subarray) |
 | [0169-majority-element](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0169-majority-element) |
+## Simulation
+|  |
+| ------- |
+| [2271-rearrange-array-elements-by-sign](https://github.com/saiprasadchary/leetcode-solutions/tree/master/2271-rearrange-array-elements-by-sign) |
 <!---LeetCode Topics End-->
