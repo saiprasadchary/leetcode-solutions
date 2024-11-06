@@ -4,6 +4,26 @@ class Solution(object):
         :type nums: List[int]
         :rtype: List[int]
         """
+        # i=0;
+        # j=1
+        # while i<len(nums)-1 and j < len(nums):
+        #     if nums[i]<0 and nums[j]>0:
+        #         nums[i], nums[j]=nums[j], nums[i]
+        #         i+=2;
+        #         j+=2
+        #     elif nums[i] >0 and nums[j]>0:
+        #         j+=1;
+        #     elif nums[i]>0  and nums[j]<0 and i+1<j:
+        #         nums[i+1], nums[j]= nums[j], nums[i+1];
+        #         i+=2;
+        #         j+=1;
+        #     elif nums[i]>0 and nums[j]<0 and i+1==j:
+        #         i+=2;
+        #         j+=2
+            
+        # return nums
+
+
         neg_arr = []
         pos_arr = []
         ans = [0] * len(nums)  # Use 'ans' instead of directly modifying 'nums'
