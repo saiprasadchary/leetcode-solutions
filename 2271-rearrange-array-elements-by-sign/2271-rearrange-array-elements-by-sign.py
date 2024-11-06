@@ -26,7 +26,7 @@ class Solution(object):
 
         neg_arr = []
         pos_arr = []
-        ans = [0] * len(nums)  # Use 'ans' instead of directly modifying 'nums'
+        
 
         # Separate negative and positive numbers
         for num in nums:
