@@ -15,13 +15,12 @@ class Solution(object):
             else:
                 pos_arr.append(num)
 
-        # Interleave positive and negative numbers
-        i, j, k = 0, 0, 0  # 'i' for pos_arr, 'j' for neg_arr, 'k' for ans
+        k=0;
         while k < len(pos_arr):
-            ans[2*k]= pos_arr[k];
-            ans[2*k +1] = neg_arr[k];
+            nums[2*k]= pos_arr[k];
+            nums[2*k +1] = neg_arr[k];
             k+=1
-        return ans
+        return nums
 
 
 
