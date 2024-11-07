@@ -6,6 +6,7 @@
 | ------- |
 | [0001-two-sum](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0001-two-sum) |
 | [0013-roman-to-integer](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0013-roman-to-integer) |
+| [0128-longest-consecutive-sequence](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0128-longest-consecutive-sequence) |
 | [0169-majority-element](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0169-majority-element) |
 | [0202-happy-number](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0202-happy-number) |
 | [0205-isomorphic-strings](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0205-isomorphic-strings) |
@@ -89,6 +90,7 @@
 | [0053-maximum-subarray](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0053-maximum-subarray) |
 | [0075-sort-colors](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0075-sort-colors) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0128-longest-consecutive-sequence](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0128-longest-consecutive-sequence) |
 | [0136-single-number](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0136-single-number) |
 | [0169-majority-element](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0189-rotate-array) |
@@ -166,4 +168,8 @@
 |  |
 | ------- |
 | [2271-rearrange-array-elements-by-sign](https://github.com/saiprasadchary/leetcode-solutions/tree/master/2271-rearrange-array-elements-by-sign) |
+## Union Find
+|  |
+| ------- |
+| [0128-longest-consecutive-sequence](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0128-longest-consecutive-sequence) |
 <!---LeetCode Topics End-->
