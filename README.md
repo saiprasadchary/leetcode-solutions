@@ -15,4 +15,12 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 |  |
 | ------- |
 | [0008-string-to-integer-atoi](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0008-string-to-integer-atoi) |
+## Math
+|  |
+| ------- |
+| [0050-powx-n](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0050-powx-n) |
+## Recursion
+|  |
+| ------- |
+| [0050-powx-n](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0050-powx-n) |
 <!---LeetCode Topics End-->
