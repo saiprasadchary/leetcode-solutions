@@ -15,6 +15,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 |  |
 | ------- |
 | [0008-string-to-integer-atoi](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0008-string-to-integer-atoi) |
+| [0151-reverse-words-in-a-string](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0151-reverse-words-in-a-string) |
 ## Math
 |  |
 | ------- |
@@ -25,4 +26,8 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | ------- |
 | [0050-powx-n](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0050-powx-n) |
 | [2050-count-good-numbers](https://github.com/saiprasadchary/leetcode-solutions/tree/master/2050-count-good-numbers) |
+## Two Pointers
+|  |
+| ------- |
+| [0151-reverse-words-in-a-string](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0151-reverse-words-in-a-string) |
 <!---LeetCode Topics End-->
