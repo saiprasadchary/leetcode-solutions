@@ -1,13 +1,21 @@
 class Solution(object):
     def reverseWords(self, s):
+        """
+        :type s: str
+        :rtype: str
+        """
         s=s.strip();
-        str2=""
-        l1=s.split(" ");
-        
-        l2=[];
-        for i in l1:
-            if (i.isalnum()):
-                l2.append(i);
+        s2=''
+        s=s.split()
 
-        return (' '.join(l2[::-1]))
-        
+        print(s)
+        s=s[::-1]
+        n=len(s)
+        for i in range(n):
+            
+            print(i)
+            s2+=s[i];
+            if i!=n-1:
+                s2+=" "
+        s2.rstrip("  ")
+        return s2;
