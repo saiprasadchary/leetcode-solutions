@@ -4,17 +4,24 @@ class Solution(object):
         :type s: str
         :rtype: int
         """
-        total_beauty = 0
-        for i in range(len(s)):
-            freq = {}
-            for j in range(i, len(s)):
-                char = s[j]
-                freq[char] = freq.get(char, 0) + 1
 
-                if len(freq) > 1:
-                    max_freq = max(freq.values())
-                    min_freq = min(freq.values())
-                    if max_freq > min_freq:
-                        total_beauty += max_freq - min_freq
+        c=0;
+        for i in range(len(s)):
+            temp_dict={};
+            for j in range(i, len(s)):
+                u=s[j]
+                temp_dict[u]=temp_dict.get(u,0)+1
+                #print(temp_dict, str1)
+                if len(temp_dict)>=2:
+                    maxi=max(temp_dict.values());
+                    mini=min(temp_dict.values());
+                    if maxi>mini:
+                        c+=maxi-mini 
+                        
+        return c;
+
+                        
+
+
+
         
-        return total_beauty
