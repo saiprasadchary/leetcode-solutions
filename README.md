@@ -31,12 +31,14 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | ------- |
 | [0013-roman-to-integer](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0013-roman-to-integer) |
 | [0050-powx-n](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0050-powx-n) |
+| [0231-power-of-two](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0231-power-of-two) |
 | [2032-largest-odd-number-in-string](https://github.com/saiprasadchary/leetcode-solutions/tree/master/2032-largest-odd-number-in-string) |
 | [2050-count-good-numbers](https://github.com/saiprasadchary/leetcode-solutions/tree/master/2050-count-good-numbers) |
 ## Recursion
 |  |
 | ------- |
 | [0050-powx-n](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0050-powx-n) |
+| [0231-power-of-two](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0231-power-of-two) |
 | [2050-count-good-numbers](https://github.com/saiprasadchary/leetcode-solutions/tree/master/2050-count-good-numbers) |
 ## Two Pointers
 |  |
@@ -89,4 +91,8 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0005-longest-palindromic-substring) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0231-power-of-two](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0231-power-of-two) |
 <!---LeetCode Topics End-->
