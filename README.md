@@ -86,6 +86,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 ## Stack
 |  |
 | ------- |
+| [0225-implement-stack-using-queues](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0225-implement-stack-using-queues) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
 ## Dynamic Programming
 |  |
@@ -95,4 +96,12 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 |  |
 | ------- |
 | [0231-power-of-two](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0231-power-of-two) |
+## Design
+|  |
+| ------- |
+| [0225-implement-stack-using-queues](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0225-implement-stack-using-queues) |
+## Queue
+|  |
+| ------- |
+| [0225-implement-stack-using-queues](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0225-implement-stack-using-queues) |
 <!---LeetCode Topics End-->
