@@ -12,7 +12,7 @@ class MyStack:
         s = len(self.queue)  # Get the current size of the deque
         self.queue.append(x)  # Append the element to the deque
         # Rotate the deque to make the last element the front of the queue
-        for _ in range(s):
+        for _ in range(1,s+1):
             self.queue.append(self.queue.popleft())
 
     def pop(self):
