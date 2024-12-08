@@ -1,36 +1,41 @@
 from collections import deque
 
-class MyStack(object):
+class MyStack:
     def __init__(self):
-        self.queue1 = deque()
-        self.queue2 = deque()
+        self.queue = deque()  # Instantiate a deque object
 
     def push(self, x):
-        # Move all elements to queue2
-        while self.queue1:
-            self.queue2.append(self.queue1.popleft())
-        # Push element into queue1
-        self.queue1.append(x)
-        # Move all elements back to queue1
-        while self.queue2:
-            self.queue1.append(self.queue2.popleft())
+        """
+        :type x: int
+        :rtype: None
+        """
+        s = len(self.queue)  # Get the current size of the deque
+        self.queue.append(x)  # Append the element to the deque
+        # Rotate the deque to make the last element the front of the queue
+        for _ in range(s):
+            self.queue.append(self.queue.popleft())
 
     def pop(self):
-        # Pop from queue1 which is arranged to behave like a stack
-        return self.queue1.popleft()
+        """
+        :rtype: int
+        """
+        return self.queue.popleft()  # Pop from the front to simulate stack behavior
 
     def top(self):
-        # Peek the front element of queue1
-        return self.queue1[0]
+        """
+        :rtype: int
+        """
+        return self.queue[0]  # Return the front item of the deque, simulating the stack's top
 
     def empty(self):
-        # Check if queue1 is empty
-        return not self.queue1
+        """
+        :rtype: bool
+        """
+        return len(self.queue) == 0  # Check if the deque is empty
 
-# Example usage
+# Your MyStack object will be instantiated and called as such:
 # obj = MyStack()
-# obj.push(1)
-# obj.push(2)
-# print(obj.top())    # Output: 2
-# print(obj.pop())    # Output: 2
-# print(obj.empty())  # Output: False
+# obj.push(x)
+# param_2 = obj.pop()
+# param_3 = obj.top()
+# param_4 = obj.empty()
