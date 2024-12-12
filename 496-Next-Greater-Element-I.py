@@ -5,13 +5,21 @@ class Solution(object):
         :type nums2: List[int]
         :rtype: List[int]
         \\\
-        if nums2:
-            nums2.sort();
-        if nums1:
-            for i in range(len(nums1)):
-                ind=index(nums1[i]);
-
-
         
-        else:
-            return None;
+        l1=[];
+        n=len(nums2);
+        for num in nums1:
+            ind = nums2.index(num)
+            found = False
+           
+            for j in range(ind + 1, n):
+                if nums2[j] > num:
+                    l1.append(nums2[j])
+                    found = True
+                    break
+        
+            if not found:
+                l1.append(-1)
+                
+        return l1
+        
