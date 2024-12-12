@@ -5,25 +5,21 @@ class Solution(object):
         :type nums2: List[int]
         :rtype: List[int]
         """
-        # since n1 is a subset of n2:
-        for i in range(len(nums1)):
-            if nums1[i] in nums2:
-                ind=nums2.index(nums1[i]);
-                print(ind);
+        
+        l1=[];
+        n=len(nums2);
+        for num in nums1:
+            ind = nums2.index(num)
+            found = False
+           
+            for j in range(ind + 1, n):
+                if nums2[j] > num:
+                    l1.append(nums2[j])
+                    found = True
+                    break
+        
+            if not found:
+                l1.append(-1)
                 
-                    
-                while ind<len(nums2):
-                    if ind==len(nums2)-1:
-                        nums1[i]=-1
-                        break
-                    if ind<= len(nums2) and nums2[ind+1] > nums1[i]:
-                        nums1[i]=nums2[ind+1];
-                        break;
-                        
-                    else:
-                        ind+=1
-                else:
-                    nums1[i]=-1
-                    
-        return nums1
+        return l1
         
