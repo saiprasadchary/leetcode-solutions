@@ -5,6 +5,19 @@ class Solution(object):
         :type nums2: List[int]
         :rtype: List[int]
         \\\
+        # n=len(nums1);
+        # m=len(nums2)
+        # while m-1:
+        #     if nums1[n-1] in nums2:
+        #         if stack:
+        #             if stack[-1]>nums
+        #         else:
+        #             res[n-1]=-1;
+
+
+
+
+
         
         l1=[];
         n=len(nums2);
