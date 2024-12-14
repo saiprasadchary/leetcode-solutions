@@ -14,7 +14,7 @@ class Solution(object):
                 continue;
             for j in range(i+1, m):
                 if nums2[j]>nums2[i]:
-                    ind=nums1.index(nums2[i]);
+                    ind=dictnums1[nums2[i]];
                     res[ind]=nums2[j];
                     break;
         return res;
