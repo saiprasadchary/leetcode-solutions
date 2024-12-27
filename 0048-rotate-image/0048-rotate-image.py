@@ -4,21 +4,4 @@ class Solution(object):
         :type matrix: List[List[int]]
         :rtype: None Do not return anything, modify matrix in-place instead.
         """
-
-        n=len(matrix);
-        for i in range(n):
-            for j in range(i):
-                matrix[i][j], matrix[j][i] = matrix[j][i], matrix[i][j];
-        
-        for k in range(n):
-            matrix[k]=matrix[k][::-1];
-            
-
-
-
-
-    
-
-        
-
         
