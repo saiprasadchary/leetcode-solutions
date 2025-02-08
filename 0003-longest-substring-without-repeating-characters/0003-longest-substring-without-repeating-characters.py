@@ -4,23 +4,16 @@ class Solution(object):
         :type s: str
         :rtype: int
         """
-        seen = {}
-        left = 0
-        max_size = 0
+        n=len(s)
+        maxlen=0;
+        for i in range(n):
+            dict1={};
+            for j in range(i, n):
+                if s[j] in dict1:
+                    break;
+                len1=j-i+1;
+                maxlen=max(maxlen,len1)
+                dict1[s[j]]=1;
+        return maxlen;
 
-        for right, char in enumerate(s):
-            if char not in seen:
-                max_size = max(max_size, right - left + 1)
-            
-            else: 
-                # not in the window so we can keep going
-                if seen[char] < left:
-                    max_size = max(max_size, right - left + 1)
-                else: 
-                # we need to reset left to the seen pointer
-                    left = seen[char] + 1
-
-            # Storing at which index we found the character
-            seen[char] = right
-
-        return max_size
+        
