@@ -10,7 +10,6 @@ class Solution(object):
         dict1={}
         maxlen=0
         while r<n:
-            
             if s[r] in dict1:
                 if dict1[s[r]]>=l:
                     l=dict1[s[r]]+1
