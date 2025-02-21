@@ -79,6 +79,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [0424-longest-repeating-character-replacement](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0424-longest-repeating-character-replacement) |
 | [0451-sort-characters-by-frequency](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0451-sort-characters-by-frequency) |
 | [0496-next-greater-element-i](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0496-next-greater-element-i) |
+| [0560-subarray-sum-equals-k](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0560-subarray-sum-equals-k) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1890-sum-of-beauty-of-all-substrings) |
 ## String Matching
 |  |
@@ -152,6 +153,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0496-next-greater-element-i](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0503-next-greater-element-ii) |
+| [0560-subarray-sum-equals-k](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0560-subarray-sum-equals-k) |
 | [0735-asteroid-collision](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0735-asteroid-collision) |
 | [0792-binary-search](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0792-binary-search) |
 | [0943-sum-of-subarray-minimums](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0943-sum-of-subarray-minimums) |
@@ -195,5 +197,6 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 ## Prefix Sum
 |  |
 | ------- |
+| [0560-subarray-sum-equals-k](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0560-subarray-sum-equals-k) |
 | [1046-max-consecutive-ones-iii](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1046-max-consecutive-ones-iii) |
 <!---LeetCode Topics End-->
