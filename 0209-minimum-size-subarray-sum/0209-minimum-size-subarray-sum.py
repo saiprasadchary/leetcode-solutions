@@ -11,8 +11,7 @@ class Solution(object):
                 res=min(res,r-l+1)
                 sum1=sum1-nums[l]
                 l+=1
-            else:
-                r+=1
+            r+=1
         print(res)       
         if res!=float('inf'):
             return res
