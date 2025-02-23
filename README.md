@@ -153,6 +153,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [0084-largest-rectangle-in-histogram](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0084-largest-rectangle-in-histogram) |
 | [0118-pascals-triangle](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0209-minimum-size-subarray-sum](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0209-minimum-size-subarray-sum) |
 | [0496-next-greater-element-i](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0503-next-greater-element-ii) |
 | [0560-subarray-sum-equals-k](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0560-subarray-sum-equals-k) |
@@ -190,17 +191,20 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0209-minimum-size-subarray-sum](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0209-minimum-size-subarray-sum) |
 | [0424-longest-repeating-character-replacement](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0424-longest-repeating-character-replacement) |
 | [1046-max-consecutive-ones-iii](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1046-max-consecutive-ones-iii) |
 | [1370-count-number-of-nice-subarrays](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1370-count-number-of-nice-subarrays) |
 ## Binary Search
 |  |
 | ------- |
+| [0209-minimum-size-subarray-sum](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0209-minimum-size-subarray-sum) |
 | [0792-binary-search](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0792-binary-search) |
 | [1046-max-consecutive-ones-iii](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1046-max-consecutive-ones-iii) |
 ## Prefix Sum
 |  |
 | ------- |
+| [0209-minimum-size-subarray-sum](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0209-minimum-size-subarray-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0560-subarray-sum-equals-k) |
 | [1046-max-consecutive-ones-iii](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1046-max-consecutive-ones-iii) |
 | [1370-count-number-of-nice-subarrays](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1370-count-number-of-nice-subarrays) |
