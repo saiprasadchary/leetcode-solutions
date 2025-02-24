@@ -1,7 +1,6 @@
 class Solution(object):
     def maximumSubarraySum(self, nums, k):
         n=len(nums)
-
         dict_wind={}
         wind_sum=0
         maxSum=0
@@ -25,14 +24,6 @@ class Solution(object):
             if len(dict_wind)==k:
                 maxSum=max(maxSum, wind_sum)
         return maxSum
-
-            
-
-
-
-
-
-
 
 
 
