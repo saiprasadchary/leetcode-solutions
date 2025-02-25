@@ -9,7 +9,8 @@ class Solution(object):
         maxavg=ksum*x
 
         for i in range(k,n):
-            ksum= ksum-nums[l]+nums[i]
+            #ksum= ksum-nums[l]+nums[i]
+            ksum=ksum+nums[i]-nums[i-k]
             avg=ksum*x
             maxavg=max(avg, maxavg)
             l+=1
