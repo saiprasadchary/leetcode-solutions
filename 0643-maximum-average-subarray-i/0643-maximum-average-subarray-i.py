@@ -5,11 +5,12 @@ class Solution(object):
         temp=nums[0]
         max_avg=float("-inf")
         avg=0.0
+        x=float(k)
 
         while r<n:  
             if r-l+1==k:
                 print(temp)
-                avg=temp/float(k)
+                avg=temp/x
                 max_avg=max(avg, max_avg)   
                 temp-=nums[l]
                 l+=1
