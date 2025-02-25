@@ -1,23 +1,37 @@
 class Solution(object):
     def findMaxAverage(self, nums, k):
         n=len(nums)
-        l=r=0
-        temp=nums[0]
-        max_avg=float("-inf")
+        l=0
         avg=0.0
-        x=1.0/k
+        x=1/float(k)
 
-        while r<n:  
-            if r-l+1==k:
-                
-                avg=temp*x
-                max_avg=max(avg, max_avg)   
-                temp-=nums[l]
-                l+=1
-            r+=1
-            if r<n:  
-                temp+=nums[r]
-        return max_avg
+        ksum=sum(nums[:k])
+        maxavg=ksum*x
+
+        for i in range(k,n):
+            ksum= ksum-nums[l]+nums[i]
+            avg=ksum*x
+            maxavg=max(avg, maxavg)
+            l+=1
+        return maxavg
+
+        # an optimal solution that doesn't consider the first k elements calculations but (optimal)
+        # l=r=0
+        # temp=nums[0]
+        # max_avg=float("-inf")
+        # avg=0.0
+        # x=1.0/k
+
+        # while r<n:  
+        #     if r-l+1==k: 
+        #         avg=temp*x
+        #         max_avg=max(avg, max_avg)   
+        #         temp-=nums[l]
+        #         l+=1
+        #     r+=1
+        #     if r<n:  
+        #         temp+=nums[r]
+        # return max_avg
 
 
         # n=len(nums)
