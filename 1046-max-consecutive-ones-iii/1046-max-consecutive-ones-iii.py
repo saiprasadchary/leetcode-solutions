@@ -25,12 +25,6 @@ class Solution(object):
         return maxlen
 
 
-
-
-
-
-
-
         # maxlen=0
         # n=len(nums)
         # for i in range(n):
