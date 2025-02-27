@@ -2,7 +2,6 @@ class Solution(object):
     def subarraySum(self, nums, k):
         n=len(nums)
         count=0
-
         pfs=[0]*n
         pfs[0]=nums[0]
         for i in range(1,n):
@@ -21,9 +20,6 @@ class Solution(object):
                 m[pfs[j]] = 1
 
         return count
-
-
-     
 
 
         # count=0
