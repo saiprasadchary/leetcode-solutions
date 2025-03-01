@@ -36,9 +36,11 @@ class Solution:
             freq[s[r]]=freq.get(s[r],0)+1
             max_freq=max(freq.values())
 
-            while((r-l+1)-max_freq>k):
+            #while((r-l+1)-max_freq>k):
+            if((r-l+1)-max_freq>k):
                 freq[s[l]]-=1
                 if(freq[s[l]]==0): del freq[s[l]]
+                # here the fresh max_freq should be calculated irrespective of the exising as the manipulation is done in freq or the dictionary to have the updated maxfreq of that segment
                 max_freq=max(freq.values())
                 l+=1
 
@@ -47,7 +49,6 @@ class Solution:
             r+=1
         return max_len
                 
-
 
 
 
