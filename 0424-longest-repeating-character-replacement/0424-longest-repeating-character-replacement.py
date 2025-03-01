@@ -35,19 +35,14 @@ class Solution:
         while r<n:
             freq[s[r]]=freq.get(s[r],0)+1
             max_freq=max(freq.values())
-            repl_pos=(r-l+1)-max_freq
 
-            while(repl_pos>k):
+            while((r-l+1)-max_freq>k):
                 freq[s[l]]-=1
                 if(freq[s[l]]==0): del freq[s[l]]
-                #if freq:
                 max_freq=max(freq.values())
-                # else: 
-                #     max_freq=0
                 l+=1
-                repl_pos=(r-l+1)-max_freq
 
-            if(repl_pos<=k):
+            if((r-l+1)-max_freq<=k):
                 max_len=max(r-l+1, max_len)
             r+=1
         return max_len
