@@ -1,10 +1,6 @@
 class Solution(object):
     def numSubarraysWithSum(self, nums, goal):
-        """
-        :type nums: List[int]
-        :type goal: int
-        :rtype: int
-        """
+        
         return self.BSS(nums,goal)- self.BSS(nums, goal-1)
 
     def BSS(self, nums,goal):
