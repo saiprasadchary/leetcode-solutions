@@ -2,13 +2,13 @@ class Solution(object):
     def numberOfSubarrays(self, nums, k):
         n = len(nums)
         count = 0
-        binary_nums=[0]*n
+        # binary_nums=[0]*n
 
-        for i in range(n):
-            if nums[i]%2!=0:
-                binary_nums[i]=1
+        # for i in range(n):
+        #     if nums[i]%2!=0:
+        #         binary_nums[i]=1
         #after transformation the problem becomes similar to binary Subarrays with sum
-        return self.BBS(binary_nums, k) - self.BBS(binary_nums, k-1)
+        return self.BBS(nums, k) - self.BBS(nums, k-1)
 
     def BBS(self, binary_nums,goal):
         l=r=0
@@ -18,9 +18,9 @@ class Solution(object):
         if goal<0:
             return 0
         while r<n:
-            pref_sum+=binary_nums[r]
+            pref_sum+=binary_nums[r]%2
             while pref_sum>goal:
-                pref_sum-=binary_nums[l]
+                pref_sum-=binary_nums[l]%2
                 l+=1
             if pref_sum<=goal:
                 cnt+=r-l+1
