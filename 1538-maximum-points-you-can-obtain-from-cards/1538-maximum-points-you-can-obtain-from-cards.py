@@ -11,7 +11,6 @@ class Solution(object):
         r_index=n-1
         max_sum=l_sum
         for i in range(k-1,-1,-1):
-            print(i)
             l_sum-=cardPoints[i]
             r_sum+=cardPoints[r_index]
             r_index-=1
