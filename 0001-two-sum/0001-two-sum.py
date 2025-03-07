@@ -5,21 +5,10 @@ class Solution(object):
         :type target: int
         :rtype: List[int]
         """
-        seen={};
-
-        for ind,val in enumerate(nums):
-            rem=target-val;
-
-            if rem in seen:
-                return (ind, seen[rem]);
-
-            seen[val]=ind 
-
-
-
-        # for i in range(len(nums)):
-        #     for j in range(i+1, len(nums)):
-        #         if nums[i]+nums[j]==target:
-        #             return [i,j];
-                
-                    
+        freq={}
+        for ind, val in enumerate(nums):
+            key=target-val
+            if key in freq:
+                return [ind, freq[key]]
+            freq[val]=ind
+        return [-1,-1]
