@@ -145,6 +145,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 |  |
 | ------- |
 | [0225-implement-stack-using-queues](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0225-implement-stack-using-queues) |
+| [2527-count-subarrays-with-fixed-bounds](https://github.com/saiprasadchary/leetcode-solutions/tree/master/2527-count-subarrays-with-fixed-bounds) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -173,6 +174,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/saiprasadchary/leetcode-solutions/tree/master/2394-count-subarrays-with-score-less-than-k) |
+| [2527-count-subarrays-with-fixed-bounds](https://github.com/saiprasadchary/leetcode-solutions/tree/master/2527-count-subarrays-with-fixed-bounds) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/saiprasadchary/leetcode-solutions/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 ## Monotonic Stack
 |  |
@@ -211,6 +213,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/saiprasadchary/leetcode-solutions/tree/master/2394-count-subarrays-with-score-less-than-k) |
+| [2527-count-subarrays-with-fixed-bounds](https://github.com/saiprasadchary/leetcode-solutions/tree/master/2527-count-subarrays-with-fixed-bounds) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/saiprasadchary/leetcode-solutions/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 ## Binary Search
 |  |
@@ -229,4 +232,8 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [1370-count-number-of-nice-subarrays](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1370-count-number-of-nice-subarrays) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/saiprasadchary/leetcode-solutions/tree/master/2394-count-subarrays-with-score-less-than-k) |
+## Monotonic Queue
+|  |
+| ------- |
+| [2527-count-subarrays-with-fixed-bounds](https://github.com/saiprasadchary/leetcode-solutions/tree/master/2527-count-subarrays-with-fixed-bounds) |
 <!---LeetCode Topics End-->
