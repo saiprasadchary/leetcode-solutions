@@ -12,18 +12,9 @@ class Solution {
                maxInd=i;
 
             if(nums[i]<minK || nums[i]>maxK) negInd=i;
-
-           
-               
                 
-                    count+=Math.max(0,Math.min(minInd,maxInd)-negInd);
-                
-
-
-            
-           
+                    count+=Math.max(0,Math.min(minInd,maxInd)-negInd);           
                
-
         } return count;
         
     }
