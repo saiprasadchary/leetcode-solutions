@@ -1,5 +1,6 @@
+import heapq
 class Solution(object):
-    import heapq
+    
     def findKthLargest(self, nums, k):
         """
         :type nums: List[int]
@@ -8,7 +9,6 @@ class Solution(object):
         """
         heap=[]
         for i in range(len(nums)):
-            
             heapq.heappush(heap, nums[i])
             if(len(heap)>k):
                 heapq.heappop(heap)
