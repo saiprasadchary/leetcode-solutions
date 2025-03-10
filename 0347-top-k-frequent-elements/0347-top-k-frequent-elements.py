@@ -15,9 +15,8 @@ class Solution(object):
             heapq.heappush(heap, (v,x))
             if(len(heap)>k):
                 heapq.heappop(heap)
-        print(heap)
-        l1=[]
+        nums=[]
         while heap:
-            l1.append(heapq.heappop(heap)[1])
-        return l1
+            nums.append(heapq.heappop(heap)[1])
+        return nums
         
