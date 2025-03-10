@@ -16,8 +16,8 @@ class Solution(object):
             if(len(heap)>k):
                 heapq.heappop(heap)
         print(heap)
-        res=[]
+        l1=[]
         while heap:
-            res.append(heapq.heappop(heap)[1])
-        return res
+            l1.append(heapq.heappop(heap)[1])
+        return l1
         
