@@ -57,6 +57,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [0141-linked-list-cycle](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0142-linked-list-cycle-ii) |
 | [0151-reverse-words-in-a-string](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0151-reverse-words-in-a-string) |
+| [0658-find-k-closest-elements](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0658-find-k-closest-elements) |
 | [0908-middle-of-the-linked-list](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0908-middle-of-the-linked-list) |
 ## Greedy
 |  |
@@ -99,11 +100,13 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [0215-kth-largest-element-in-an-array](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0242-valid-anagram](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0242-valid-anagram) |
 | [0451-sort-characters-by-frequency](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0451-sort-characters-by-frequency) |
+| [0658-find-k-closest-elements](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0658-find-k-closest-elements) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0451-sort-characters-by-frequency](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0451-sort-characters-by-frequency) |
+| [0658-find-k-closest-elements](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0658-find-k-closest-elements) |
 ## Bucket Sort
 |  |
 | ------- |
@@ -169,6 +172,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [0503-next-greater-element-ii](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0503-next-greater-element-ii) |
 | [0560-subarray-sum-equals-k](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0560-subarray-sum-equals-k) |
 | [0643-maximum-average-subarray-i](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0643-maximum-average-subarray-i) |
+| [0658-find-k-closest-elements](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0658-find-k-closest-elements) |
 | [0735-asteroid-collision](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0735-asteroid-collision) |
 | [0792-binary-search](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0792-binary-search) |
 | [0943-sum-of-subarray-minimums](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0943-sum-of-subarray-minimums) |
@@ -211,6 +215,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [0209-minimum-size-subarray-sum](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0209-minimum-size-subarray-sum) |
 | [0424-longest-repeating-character-replacement](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0424-longest-repeating-character-replacement) |
 | [0643-maximum-average-subarray-i](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0643-maximum-average-subarray-i) |
+| [0658-find-k-closest-elements](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0658-find-k-closest-elements) |
 | [0966-binary-subarrays-with-sum](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1046-max-consecutive-ones-iii) |
 | [1370-count-number-of-nice-subarrays](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1370-count-number-of-nice-subarrays) |
@@ -224,6 +229,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0004-median-of-two-sorted-arrays) |
 | [0209-minimum-size-subarray-sum](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0209-minimum-size-subarray-sum) |
+| [0658-find-k-closest-elements](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0658-find-k-closest-elements) |
 | [0792-binary-search](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0792-binary-search) |
 | [1046-max-consecutive-ones-iii](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1046-max-consecutive-ones-iii) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/saiprasadchary/leetcode-solutions/tree/master/2394-count-subarrays-with-score-less-than-k) |
