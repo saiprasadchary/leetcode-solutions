@@ -9,10 +9,7 @@ class Solution(object):
         n=len(nums)
         freq={}
         for i in range(n):
-            if nums[i] not in freq:
-                freq[nums[i]]=1
-            else:
-                freq[nums[i]]+=1
+           freq[nums[i]]=freq.get(nums[i],0)+1
         
         for x,v in freq.items():
             heapq.heappush(heap, (v,x))
