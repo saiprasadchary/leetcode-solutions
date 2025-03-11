@@ -7,12 +7,17 @@ class Solution(object):
         """
         if len(s)!=len(goal):
             return False;
-        goal1=''
-        for i in range(len(s)):
-            goal1=goal[i+1:]+goal[:i+1]
-            print(goal1)
-            if goal1 == s:
-                return True;
-        return False;
+        s2=s+s
+        if goal in s2:
+            return True
+        else:
+            return False
+        # goal1=''
+        # for i in range(len(s)):
+        #     goal1=goal[i+1:]+goal[:i+1]
+        #     print(goal1)
+        #     if goal1 == s:
+        #         return True;
+        # return False;
 
         
