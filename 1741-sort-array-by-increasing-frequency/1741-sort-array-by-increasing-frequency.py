@@ -9,8 +9,8 @@ class Solution(object):
         for i in range(n):
            freq[nums[i]]=freq.get(nums[i],0)+1
         heap=[]
-        for frequ,val in freq.items():
-            heapq.heappush(heap, (val,-frequ))
+        for val,frequ in freq.items():
+            heapq.heappush(heap, (frequ,-val))
             # if the values are tied, consider the frequ (inorder to satisfy the max frequ first we add the negative)
         res=[]
         while heap:
