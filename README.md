@@ -40,6 +40,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [0048-rotate-image](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0048-rotate-image) |
 | [0050-powx-n](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0050-powx-n) |
 | [0231-power-of-two](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0231-power-of-two) |
+| [1014-k-closest-points-to-origin](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1014-k-closest-points-to-origin) |
 | [1370-count-number-of-nice-subarrays](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1370-count-number-of-nice-subarrays) |
 | [2032-largest-odd-number-in-string](https://github.com/saiprasadchary/leetcode-solutions/tree/master/2032-largest-odd-number-in-string) |
 | [2050-count-good-numbers](https://github.com/saiprasadchary/leetcode-solutions/tree/master/2050-count-good-numbers) |
@@ -104,6 +105,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [0347-top-k-frequent-elements](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0451-sort-characters-by-frequency) |
 | [0658-find-k-closest-elements](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0658-find-k-closest-elements) |
+| [1014-k-closest-points-to-origin](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1014-k-closest-points-to-origin) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1741-sort-array-by-increasing-frequency) |
 ## Heap (Priority Queue)
 |  |
@@ -112,6 +114,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [0347-top-k-frequent-elements](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0451-sort-characters-by-frequency) |
 | [0658-find-k-closest-elements](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0658-find-k-closest-elements) |
+| [1014-k-closest-points-to-origin](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1014-k-closest-points-to-origin) |
 ## Bucket Sort
 |  |
 | ------- |
@@ -185,6 +188,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [0792-binary-search](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0792-binary-search) |
 | [0943-sum-of-subarray-minimums](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0943-sum-of-subarray-minimums) |
 | [0966-binary-subarrays-with-sum](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0966-binary-subarrays-with-sum) |
+| [1014-k-closest-points-to-origin](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1014-k-closest-points-to-origin) |
 | [1046-max-consecutive-ones-iii](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1046-max-consecutive-ones-iii) |
 | [1370-count-number-of-nice-subarrays](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1370-count-number-of-nice-subarrays) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
@@ -262,9 +266,15 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [0004-median-of-two-sorted-arrays](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0004-median-of-two-sorted-arrays) |
 | [0215-kth-largest-element-in-an-array](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0347-top-k-frequent-elements) |
+| [1014-k-closest-points-to-origin](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1014-k-closest-points-to-origin) |
 ## Quickselect
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0347-top-k-frequent-elements) |
+| [1014-k-closest-points-to-origin](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1014-k-closest-points-to-origin) |
+## Geometry
+|  |
+| ------- |
+| [1014-k-closest-points-to-origin](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1014-k-closest-points-to-origin) |
 <!---LeetCode Topics End-->
