@@ -14,8 +14,7 @@ class Solution(object):
         
         for word, freq_w in freq.items():
             heapq.heappush(heap, (-freq_w, word))
-            
-            
+               
         while k>0:
             x,y=heapq.heappop(heap)
             res.append(y)
