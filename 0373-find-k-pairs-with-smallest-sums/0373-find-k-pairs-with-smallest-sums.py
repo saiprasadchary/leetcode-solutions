@@ -35,27 +35,23 @@ class Solution(object):
         return res
 
 
-        
+        ############## Better Brute Force Approach ######
+      
+
         # heap=[]
         # res=[]
+        # x=0
         # for i in range(len(nums1)):
         #     for j in range(len(nums2)):
-        #         res.append([nums1[i], nums2[j]])
-        #         sum1=nums1[i]+nums2[j]
-        #         heapq.heappush(heap, (-sum1, [nums1[i], nums2[j]]))
+        #         heapq.heappush(heap, (-(nums1[i]+nums2[j]), nums1[i], nums2[j]))
         #         if(len(heap)>k):
         #             heapq.heappop(heap)
 
-        # heap2=[]
-        # res=[]
-        # while heap:
-        #     x, list1 = heapq.heappop(heap)
-        #     sum1=-x
-        #     heapq.heappush(heap2, (sum1, list1))
-        # while heap2:
-        #     res.append(heap2[0][1])
-        #     heapq.heappop(heap2)
+        # while heap: 
+        #     _,x,y=heapq.heappop(heap)
+        #     res.append([x,y])
         # return res
-        
 
+
+        
         
