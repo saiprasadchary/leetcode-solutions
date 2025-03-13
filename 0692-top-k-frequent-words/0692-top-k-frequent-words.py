@@ -15,16 +15,11 @@ class Solution(object):
         for word, freq_w in freq.items():
             heapq.heappush(heap, (-freq_w, word))
             
-        while heap:
+        while k>0:
             x,y=heapq.heappop(heap)
-            if(len(res)>=k):
-                break
             res.append(y)
+            k-=1
         return res
-        # res=[]
-        # while heap:
-        #     x,y=heapq.heappop(heap)
-        #     res.append(y)
-        #return res
+       
 
         
