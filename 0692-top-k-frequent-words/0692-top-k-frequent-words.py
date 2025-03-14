@@ -13,10 +13,12 @@ class Solution(object):
             freq[words[i]]=freq.get(words[i],0)+1
         
         for word, freq_w in freq.items():
+            i#f(len(heap)<k):
             heapq.heappush(heap, (-freq_w, word))
+        
                
-        while k>0:
-            x,y=heapq.heappop(heap)
+        while heap and k>0:
+            x,y =heapq.heappop(heap)
             res.append(y)
             k-=1
         return res
