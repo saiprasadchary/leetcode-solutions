@@ -35,18 +35,18 @@ class Solution(object):
                 # "better" means item > heap[0]
                 if item > heap[0]:
                     heapq.heapreplace(heap, item)
-        
-        # now heap has k "best" items in min-heap order
-        # pop them all from worst to best
-        result_items = []
-        while heap:
-            result_items.append(heapq.heappop(heap))
-        
-        # reverse => from best to worst
-        result_items.reverse()
+        res=[]
+        while k:
+            curr=(heapq.heappop(heap))
+            res.append(curr.word)
+            k-=1
+        return res[::-1]
+            
 
-        # just return the words
-        return [x.word for x in result_items]
+
+
+
+        ##O(nlogK)############
         # heap=[]
         # freq={}
         # n=len(words)
@@ -55,7 +55,7 @@ class Solution(object):
         #     freq[words[i]]=freq.get(words[i],0)+1
         
         # for word, freq_w in freq.items():
-        #     i#f(len(heap)<k):
+        #     if(len(heap)<k):
         #     heapq.heappush(heap, (-freq_w, word))
         
                
