@@ -1,27 +1,69 @@
+import heapq
+
+class HeapItem:
+    def __init__(self, word, count):
+        self.word = word
+        self.count = count
+    
+    def __lt__(self, other):
+        # Typically, for "top K frequent", we do:
+        # "smallest" item is the one with lower freq,
+        # or if tie, bigger word lexicographically.
+        # Then we keep a min-heap of size k.
+        
+        if self.count == other.count:
+            # For a tie, we want the lexicographically larger word to be "smaller"
+            # so that it's popped first. 
+            return self.word > other.word
+        # If freq is smaller => "worse" => smaller in min-heap sense
+        return self.count < other.count
+
 class Solution(object):
     def topKFrequent(self, words, k):
-        """
-        :type words: List[str]
-        :type k: int
-        :rtype: List[str]
-        """
-        heap=[]
-        freq={}
-        n=len(words)
-        res=[]
-        for i in range(n):
-            freq[words[i]]=freq.get(words[i],0)+1
+        freq = {}
+        for w in words:
+            freq[w] = freq.get(w, 0) + 1
+
+        # min-heap of size k
+        heap = []
+        for word, count in freq.items():
+            item = HeapItem(word, count)
+            if len(heap) < k:
+                heapq.heappush(heap, item)
+            else:
+                # if item is "better" than the top => replace
+                # "better" means item > heap[0]
+                if item > heap[0]:
+                    heapq.heapreplace(heap, item)
         
-        for word, freq_w in freq.items():
-            i#f(len(heap)<k):
-            heapq.heappush(heap, (-freq_w, word))
+        # now heap has k "best" items in min-heap order
+        # pop them all from worst to best
+        result_items = []
+        while heap:
+            result_items.append(heapq.heappop(heap))
+        
+        # reverse => from best to worst
+        result_items.reverse()
+
+        # just return the words
+        return [x.word for x in result_items]
+        # heap=[]
+        # freq={}
+        # n=len(words)
+        # res=[]
+        # for i in range(n):
+        #     freq[words[i]]=freq.get(words[i],0)+1
+        
+        # for word, freq_w in freq.items():
+        #     i#f(len(heap)<k):
+        #     heapq.heappush(heap, (-freq_w, word))
         
                
-        while heap and k>0:
-            x,y =heapq.heappop(heap)
-            res.append(y)
-            k-=1
-        return res
+        # while heap and k>0:
+        #     x,y =heapq.heappop(heap)
+        #     res.append(y)
+        #     k-=1
+        # return res
        
 
         
