@@ -8,10 +8,9 @@ class Solution(object):
         g.sort()
         s.sort()
         i=j=0
-
-        while i<(len(s)) and j < len(g):
-            print(i,j)
-
+        n=len(s)
+        m=len(g)
+        while i<n and j < m:
             if s[i]>=g[j]:
                 j+=1
 
