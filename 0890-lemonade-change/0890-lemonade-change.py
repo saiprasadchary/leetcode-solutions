@@ -6,8 +6,8 @@ class Solution(object):
         """
         five, ten=0,0
         #twenty is not needed because that is the far end bill
-
-        for i in range(len(bills)):
+        n=len(bills)
+        for i in range(n):
             if(bills[i]==5):
                 five+=1
             elif(bills[i]==10):
@@ -16,7 +16,7 @@ class Solution(object):
                     ten+=1
                 else:
                     return False
-            elif(bills[i]==20):
+            else:
                 if(five and ten):
                     ten-=1
                     five-=1
