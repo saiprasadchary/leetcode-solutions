@@ -27,6 +27,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [0402-remove-k-digits](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0402-remove-k-digits) |
 | [0424-longest-repeating-character-replacement](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0424-longest-repeating-character-replacement) |
 | [0451-sort-characters-by-frequency](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0451-sort-characters-by-frequency) |
+| [0678-valid-parenthesis-string](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0678-valid-parenthesis-string) |
 | [0692-top-k-frequent-words](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0692-top-k-frequent-words) |
 | [0812-rotate-string](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0812-rotate-string) |
 | [1078-remove-outermost-parentheses](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1078-remove-outermost-parentheses) |
@@ -68,6 +69,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | ------- |
 | [0402-remove-k-digits](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0402-remove-k-digits) |
 | [0455-assign-cookies](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0455-assign-cookies) |
+| [0678-valid-parenthesis-string](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0678-valid-parenthesis-string) |
 | [0890-lemonade-change](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0890-lemonade-change) |
 | [2032-largest-odd-number-in-string](https://github.com/saiprasadchary/leetcode-solutions/tree/master/2032-largest-odd-number-in-string) |
 ## Trie
@@ -149,6 +151,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [0402-remove-k-digits](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0402-remove-k-digits) |
 | [0496-next-greater-element-i](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0503-next-greater-element-ii) |
+| [0678-valid-parenthesis-string](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0678-valid-parenthesis-string) |
 | [0735-asteroid-collision](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0735-asteroid-collision) |
 | [0943-sum-of-subarray-minimums](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0943-sum-of-subarray-minimums) |
 | [1078-remove-outermost-parentheses](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1078-remove-outermost-parentheses) |
@@ -159,6 +162,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [0005-longest-palindromic-substring](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0005-longest-palindromic-substring) |
 | [0118-pascals-triangle](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0678-valid-parenthesis-string](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0678-valid-parenthesis-string) |
 | [0943-sum-of-subarray-minimums](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0943-sum-of-subarray-minimums) |
 ## Bit Manipulation
 |  |
