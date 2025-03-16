@@ -5,7 +5,8 @@ class Solution(object):
         :rtype: bool
         """
         max_index=0
-        for i in range(len(nums)):
+        n=len(nums)
+        for i in range(n):
             if(i>max_index):
                 return False
             max_index=max(max_index, i+nums[i])
