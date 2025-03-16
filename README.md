@@ -67,6 +67,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 ## Greedy
 |  |
 | ------- |
+| [0055-jump-game](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0055-jump-game) |
 | [0402-remove-k-digits](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0402-remove-k-digits) |
 | [0455-assign-cookies](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0455-assign-cookies) |
 | [0678-valid-parenthesis-string](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0678-valid-parenthesis-string) |
@@ -160,6 +161,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0005-longest-palindromic-substring) |
+| [0055-jump-game](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0055-jump-game) |
 | [0118-pascals-triangle](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0678-valid-parenthesis-string](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0678-valid-parenthesis-string) |
@@ -188,6 +190,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [0001-two-sum](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0001-two-sum) |
 | [0004-median-of-two-sorted-arrays](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0004-median-of-two-sorted-arrays) |
 | [0048-rotate-image](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0048-rotate-image) |
+| [0055-jump-game](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0055-jump-game) |
 | [0073-set-matrix-zeroes](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0075-sort-colors) |
 | [0084-largest-rectangle-in-histogram](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0084-largest-rectangle-in-histogram) |
