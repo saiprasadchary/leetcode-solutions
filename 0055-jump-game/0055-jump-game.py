@@ -10,6 +10,8 @@ class Solution(object):
             if(i>max_index):
                 return False
             max_index=max(max_index, i+nums[i])
+            if(max_index>=n):
+                return True
         return True
 
 
