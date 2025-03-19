@@ -10,8 +10,8 @@ class Solution(object):
             # the pointer r moves through out the last of the string whereas the l poiner points by skipping the
             # unnecessary values to remove the duplicates in the dictionary
             if s[r] in dict_wind:
-                if dict_wind[s[r]]>=l: #this check is to make sure the traversal i.e by moving the l pointer to he forward not backwards
-                    l=dict_wind[s[r]]+1 # cause as it skips the unnecessary traversal to skip, the pointer l 
+                while dict_wind[s[r]]>=l: #this check is to make sure the traversal i.e by moving the l pointer to he forward not backwards
+                    l=l+1 # cause as it skips the unnecessary traversal to skip, the pointer l 
                 #l should point to the next value to make it sensible(without duplication)
 
             # the pointer r moves through out the last of the string whereas the l poiner points by skipping the
