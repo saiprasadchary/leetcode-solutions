@@ -21,25 +21,21 @@ class Solution(object):
             
         # return count
 
-        #####
+
         n=len(nums)
-        freq={}
-        freq[0]=1
-        pref_sum=0
+        freq={0:1}
         cnt=0
+        pref_sum=0
+        
         for i in range(n):
-            pref_sum += nums[i]
+            pref_sum+=nums[i]
+            
             if(pref_sum-k in freq):
                 cnt+=freq[pref_sum-k]
-            freq[pref_sum] = freq.get(pref_sum, 0) + 1
+            
+            freq[pref_sum]=freq.get(pref_sum, 0)+1
 
         return cnt
-
-
-       
-
-
-      
 
 
         #^^^^^^^^^^^^
