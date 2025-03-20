@@ -23,12 +23,15 @@ class Solution(object):
 
 
         n=len(nums)
-        freq={0:1}
+        freq={}
         cnt=0
         pref_sum=0
-        
+
         for i in range(n):
             pref_sum+=nums[i]
+
+            if(pref_sum==k):
+                cnt+=1
             
             if(pref_sum-k in freq):
                 cnt+=freq[pref_sum-k]
