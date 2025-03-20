@@ -22,14 +22,21 @@ class Solution(object):
 
         # this solution could solve for all the values irrespective of just 0's and 1's and also +ve and -ve's too
         # cnt=0
-        # freq={0:1}
+
         # n=len(nums)
         # pref_sum=0
+
         # for i in range(n):
         #     pref_sum+=nums[i]
+
+        #     if pref_sum==k:
+        #     cnt+=1
+
         #     if pref_sum-goal in freq:
         #         cnt+=freq[pref_sum-goal]
+
         #     freq[pref_sum]=freq.get(pref_sum,0)+1
+        
         # return cnt;
 
             
