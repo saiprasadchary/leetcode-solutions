@@ -15,17 +15,23 @@ class Solution(object):
         n=len(binary_nums)
         pref_sum=0
         cnt=0
+
         if goal<0:
             return 0
+
         while r<n:
+
             pref_sum+=binary_nums[r]%2
+
             while pref_sum>goal:
                 pref_sum-=binary_nums[l]%2
                 l+=1
+
             if pref_sum<=goal:
                 cnt+=r-l+1
+                
             r+=1
-        print(cnt)
+        
         return cnt
 
 
