@@ -27,27 +27,27 @@ class Solution:
 
 
         #------better and with "If" it becomes optimal approach-----
-        l=r=0
-        max_len=0
-        freq={}
-        n=len(s)
+        # l=r=0
+        # max_len=0
+        # freq={}
+        # n=len(s)
 
-        while r<n:
-            freq[s[r]]=freq.get(s[r],0)+1
-            max_freq=max(freq.values())
+        # while r<n:
+        #     freq[s[r]]=freq.get(s[r],0)+1
+        #     max_freq=max(freq.values())
 
-            #while((r-l+1)-max_freq>k):
-            if((r-l+1)-max_freq>k):
-                freq[s[l]]-=1
-                if(freq[s[l]]==0): del freq[s[l]]
-                # here the fresh max_freq should be calculated irrespective of the exising as the manipulation is done in freq or the dictionary to have the updated maxfreq of that segment
-                #max_freq=max(freq.values())
-                l+=1
+        #     #while((r-l+1)-max_freq>k):
+        #     if((r-l+1)-max_freq>k):
+        #         freq[s[l]]-=1
+        #         if(freq[s[l]]==0): del freq[s[l]]
+        #         # here the fresh max_freq should be calculated irrespective of the exising as the manipulation is done in freq or the dictionary to have the updated maxfreq of that segment
+        #         max_freq=max(freq.values())
+        #         l+=1
 
-            if((r-l+1)-max_freq<=k):
-                max_len=max(r-l+1, max_len)
-            r+=1
-        return max_len
+        #     if((r-l+1)-max_freq<=k):
+        #         max_len=max(r-l+1, max_len)
+        #     r+=1
+        # return max_len
                 
 
 
@@ -67,6 +67,45 @@ class Solution:
         #         else:
         #             break
         # return max_len
+
+    #     n=len(s)
+    #     maxlen=0
+    #     for i in range(n):
+    #         freq={}
+    #         for j in range(i,n):
+    #             freq[s[j]]=freq.get(s[j],0)+1
+                
+    #             acc_repl=(j-i+1)-max(freq.values())
+    #             if(acc_repl<=k):
+    #                 maxlen=max(maxlen, j-i+1)
+    #             else:
+    #                 break
+    #     return maxlen
+
+
+
+        l=r=0
+        freq={}
+        n=len(s)
+        maxlen=0
+
+        while r<n:
+
+            freq[s[r]]=freq.get(s[r],0)+1
+            acc_repl=(r-l+1)-max(freq.values())
+
+            while (r-l+1)-max(freq.values())>k:
+                freq[s[l]]-=1
+                if(freq[s[l]]==0):
+                    del freq[s[l]]
+                l+=1
+
+            if((r-l+1)-max(freq.values())<=k):
+                maxlen=max(maxlen, r-l+1)
+            r+=1
+
+        return maxlen
+            
        
 
 
