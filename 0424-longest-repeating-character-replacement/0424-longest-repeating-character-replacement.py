@@ -5,25 +5,25 @@ class Solution:
         :type k: int
         :rtype: int
         """
-        # freq={}
-        # max_freq=0
-        # l=0
-        # r=0
-        # longest=0
-        # n=len(s)
-        # while r<n:
-        #     freq[s[r]]=freq.get(s[r],0)+1
-        #    # max_freq=max(max_freq, freq[s[r]])
-        #     max_freq=max(freq.values())
+        freq={}
+        max_freq=0
+        l=0
+        r=0
+        longest=0
+        n=len(s)
+        while r<n:
+            freq[s[r]]=freq.get(s[r],0)+1
+           # max_freq=max(max_freq, freq[s[r]])
+            max_freq=max(freq.values())
 
-        #     wind=r-l+1
-        #     if wind-max_freq<=k:
-        #         longest=max(longest,wind)
-        #     else:
-        #         freq[s[l]]-=1
-        #         l+=1;
-        #     r+=1
-        # return longest
+            wind=r-l+1
+            if wind-max_freq<=k:
+                longest=max(longest,wind)
+            else:
+                freq[s[l]]-=1
+                l+=1;
+            r+=1
+        return longest
 
 
         #------better and with "If" it becomes optimal approach-----
@@ -84,27 +84,27 @@ class Solution:
 
 
 
-        l=r=0
-        freq={}
-        n=len(s)
-        maxlen=0
+        # l=r=0
+        # freq={}
+        # n=len(s)
+        # maxlen=0
 
-        while r<n:
+        # while r<n:
 
-            freq[s[r]]=freq.get(s[r],0)+1
-            acc_repl=(r-l+1)-max(freq.values())
+        #     freq[s[r]]=freq.get(s[r],0)+1
+        #     acc_repl=(r-l+1)-max(freq.values())
 
-            if (r-l+1)-max(freq.values())>k:
-                freq[s[l]]-=1
-                if(freq[s[l]]==0):
-                    del freq[s[l]]
-                l+=1
+        #     if (r-l+1)-max(freq.values())>k:
+        #         freq[s[l]]-=1
+        #         if(freq[s[l]]==0):
+        #             del freq[s[l]]
+        #         l+=1
 
-            if((r-l+1)-max(freq.values())<=k):
-                maxlen=max(maxlen, r-l+1)
-            r+=1
+        #     if((r-l+1)-max(freq.values())<=k):
+        #         maxlen=max(maxlen, r-l+1)
+        #     r+=1
 
-        return maxlen
+        # return maxlen
             
        
 
