@@ -69,7 +69,7 @@ class Solution(object):
         while r<n:
             if(nums[r]==0):
                 zeros+=1
-            if(zeros>k):
+            while(zeros>k):
                 if(nums[l]==0):
                     zeros-=1
                 l+=1
