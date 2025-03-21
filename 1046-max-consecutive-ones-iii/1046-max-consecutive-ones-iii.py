@@ -28,24 +28,24 @@ class Solution(object):
 
         
         # this is the better solution actually as while loop for the l pointer, until it finds the another zero is shouldbe eliminated in the optimal one which is shown above:
-        # n=len(nums)
-        # r=0
-        # l=0
-        # zeros=0
-        # maxlen=0
-        # while r<n:
-        #     if nums[r]==0:
-        #         zeros+=1;
-        #     if zeros<=k:
-        #         len1=r-l+1
-        #         maxlen=max(len1, maxlen)
-        #     if zeros>k:
-        #         while zeros>k:
-        #             if nums[l]==0:
-        #                 zeros-=1
-        #             l+=1
-        #     r+=1
-        # return maxlen
+        n=len(nums)
+        r=0
+        l=0
+        zeros=0
+        maxlen=0
+        while r<n:
+            if nums[r]==0:
+                zeros+=1;
+            if zeros<=k:
+                len1=r-l+1
+                maxlen=max(len1, maxlen)
+            if zeros>k:
+                while zeros>k:
+                    if nums[l]==0:
+                        zeros-=1
+                    l+=1
+            r+=1
+        return maxlen
 
 
         # maxlen=0
@@ -62,18 +62,4 @@ class Solution(object):
         #             break
         # return maxlen
 
-        n=len(nums)
-        l=r=0
-        zeros=0
-        maxLen=0
-        while r<n:
-            if(nums[r]==0):
-                zeros+=1
-            while(zeros>k):
-                if(nums[l]==0):
-                    zeros-=1
-                l+=1
-            if(zeros<=k):
-                maxLen=max(maxLen, r-l+1)
-            r+=1
-        return maxLen
+
