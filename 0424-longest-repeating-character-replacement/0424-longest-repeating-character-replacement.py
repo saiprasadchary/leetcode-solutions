@@ -5,25 +5,25 @@ class Solution:
         :type k: int
         :rtype: int
         """
-        freq={}
-        max_freq=0
-        l=0
-        r=0
-        longest=0
-        n=len(s)
-        while r<n:
-            freq[s[r]]=freq.get(s[r],0)+1
-            max_freq=max(max_freq, freq[s[r]])
-            #max_freq=max(freq.values())
+        # freq={}
+        # max_freq=0
+        # l=0
+        # r=0
+        # longest=0
+        # n=len(s)
+        # while r<n:
+        #     freq[s[r]]=freq.get(s[r],0)+1
+        #     max_freq=max(max_freq, freq[s[r]])
+        #     #max_freq=max(freq.values())
 
-            wind=r-l+1
-            if wind-max_freq<=k:
-                longest=max(longest,wind)
-            else:
-                freq[s[l]]-=1
-                l+=1;
-            r+=1
-        return longest
+        #     wind=r-l+1
+        #     if wind-max_freq<=k:
+        #         longest=max(longest,wind)
+        #     else:
+        #         freq[s[l]]-=1
+        #         l+=1;
+        #     r+=1
+        # return longest
 
 
         #------better and with "If" it becomes optimal approach-----
@@ -88,7 +88,7 @@ class Solution:
         freq={}
         n=len(s)
         maxlen=0
-
+        maxfreq=0
         while r<n:
 
             freq[s[r]]=freq.get(s[r],0)+1
@@ -100,7 +100,7 @@ class Solution:
                 if(freq[s[l]]==0):
                     del freq[s[l]]
                 l+=1
-
+            # since we manipulated the length in the removal part above so we need to recalcuate len and maxfreq
             maxfreq=max(maxfreq, freq[s[r]])
             if((r-l+1)-maxfreq<=k):
                 maxlen=max(maxlen, r-l+1)
