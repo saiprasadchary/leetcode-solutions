@@ -5,22 +5,23 @@ class Solution(object):
         :type k: int
         :rtype: int
         """
-        l=r=0
-        n=len(nums)
-        zeros=0
-        maxlen=0
-        while r<n:
-            if nums[r]==0:
-                zeros+=1
-            if zeros > k:
-                if nums[l]==0:
-                    zeros-=1
-                l+=1
-            if zeros <=k:
-                windlen=r-l+1
-                maxlen=max(windlen, maxlen)
-            r+=1
-        return maxlen
+        # l=r=0
+        # n=len(nums)
+        # zeros=0
+        # maxlen=0
+        # while r<n:
+        #     if nums[r]==0:
+        #         zeros+=1
+        #     # here the twist comes until we find the zeros condition to be true we keep the windsize to shrink by one through the if statement and simplify doesnt considers the maxlen until zeros condition is satisfied.
+        #     if zeros > k:
+        #         if nums[l]==0:
+        #             zeros-=1
+        #         l+=1
+        #     if zeros <=k:
+        #         windlen=r-l+1
+        #         maxlen=max(windlen, maxlen)
+        #     r+=1
+        # return maxlen
 
 
 
@@ -60,3 +61,19 @@ class Solution(object):
         #         else:
         #             break
         # return maxlen
+
+        n=len(nums)
+        l=r=0
+        zeros=0
+        maxLen=0
+        while r<n:
+            if(nums[r]==0):
+                zeros+=1
+            if(zeros>k):
+                if(nums[l]==0):
+                    zeros-=1
+                l+=1
+            if(zeros<=k):
+                maxLen=max(maxLen, r-l+1)
+            r+=1
+        return maxLen
