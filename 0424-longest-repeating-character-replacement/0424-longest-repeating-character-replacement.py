@@ -13,8 +13,8 @@ class Solution:
         n=len(s)
         while r<n:
             freq[s[r]]=freq.get(s[r],0)+1
-           # max_freq=max(max_freq, freq[s[r]])
-            max_freq=max(freq.values())
+            max_freq=max(max_freq, freq[s[r]])
+            #max_freq=max(freq.values())
 
             wind=r-l+1
             if wind-max_freq<=k:
