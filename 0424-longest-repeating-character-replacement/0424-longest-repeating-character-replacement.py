@@ -1,10 +1,10 @@
 class Solution:
     def characterReplacement(self, s, k):
-        """
-        :type s: str
-        :type k: int
-        :rtype: int
-        """
+        # """
+        # :type s: str
+        # :type k: int
+        # :rtype: int
+        # """
         # freq={}
         # max_freq=0
         # l=0
@@ -16,9 +16,9 @@ class Solution:
         #     max_freq=max(max_freq, freq[s[r]])
         #     #max_freq=max(freq.values())
 
-        #     wind=r-l+1
-        #     if wind-max_freq<=k:
-        #         longest=max(longest,wind)
+        #     windlen=r-l+1
+        #     if windlen-max_freq<=k:
+        #         longest=max(longest,windlen)
         #     else:
         #         freq[s[l]]-=1
         #         l+=1;
@@ -101,8 +101,7 @@ class Solution:
                     del freq[s[l]]
                 l+=1
             # since we manipulated the length in the removal part above so we need to recalcuate len and maxfreq
-            maxfreq=max(maxfreq, freq[s[r]])
-            if((r-l+1)-maxfreq<=k):
+            else:
                 maxlen=max(maxlen, r-l+1)
             r+=1
 
