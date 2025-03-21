@@ -94,7 +94,7 @@ class Solution:
             freq[s[r]]=freq.get(s[r],0)+1
             acc_repl=(r-l+1)-max(freq.values())
 
-            while (r-l+1)-max(freq.values())>k:
+            if (r-l+1)-max(freq.values())>k:
                 freq[s[l]]-=1
                 if(freq[s[l]]==0):
                     del freq[s[l]]
