@@ -23,8 +23,8 @@ class Solution(object):
                 if(freq[nums[left]]==0):
                     del freq[nums[left]]
                 left+=1
-        
-            maxSum=max(maxSum, wind_sum)
+            if(r-left+1==len(freq)):
+                maxSum=max(maxSum, wind_sum)
             r+=1
 
         return maxSum
