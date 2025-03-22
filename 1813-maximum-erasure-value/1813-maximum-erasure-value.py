@@ -20,6 +20,8 @@ class Solution(object):
             while freq[nums[r]]>1:
                 freq[nums[left]]-=1
                 wind_sum-=nums[left]
+                if(freq[nums[left]]==0):
+                    del freq[nums[left]]
                 left+=1
         
             maxSum=max(maxSum, wind_sum)
@@ -27,5 +29,3 @@ class Solution(object):
 
         return maxSum
 
-
-        
