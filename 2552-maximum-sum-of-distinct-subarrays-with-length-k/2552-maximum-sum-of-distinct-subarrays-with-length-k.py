@@ -10,7 +10,7 @@ class Solution(object):
             freq[nums[i]]=freq.get(nums[i],0)+1
             wind_sum+=nums[i]
 
-            if(i-left>=k):
+            if(i>=k):
                 wind_sum-=nums[left]
                 freq[nums[left]]-=1
                 if(freq[nums[left]]==0):
