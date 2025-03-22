@@ -25,26 +25,62 @@ class Solution(object):
         #         maxSum=max(maxSum, wind_sum)
         # return maxSum
 
-        n=len(nums)
-        freq={}
-        left=0
-        wind_sum=0
-        maxSum=0
+        # n=len(nums)
+        # freq={}
+        # left=0
+        # wind_sum=0
+        # maxSum=0
 
-        for i in range(n):
-            freq[nums[i]]=freq.get(nums[i],0)+1
-            wind_sum+=nums[i]
+        # for i in range(n):
+        #     freq[nums[i]]=freq.get(nums[i],0)+1
+        #     wind_sum+=nums[i]
 
-            if(i>=k):
-                wind_sum-=nums[left]
-                freq[nums[left]]-=1
-                if(freq[nums[left]]==0):
-                    del freq[nums[left]]
-                left+=1
+        #     if(i>=k):
+        #         wind_sum-=nums[left]
+        #         freq[nums[left]]-=1
+        #         if(freq[nums[left]]==0):
+        #             del freq[nums[left]]
+        #         left+=1
 
-            if(len(freq)==k):
-                maxSum=max(maxSum, wind_sum)
+        #     if(len(freq)==k):
+        #         maxSum=max(maxSum, wind_sum)
                 
+        # return maxSum
+
+        n=len(nums)
+        l=r=0
+        maxSum=0
+        freq={}
+        sum1=0
+
+        while(r<n):
+
+
+    # increment freq for nums[r]
+            freq[nums[r]] = freq.get(nums[r], 0) + 1
+            sum1 += nums[r]
+
+            # if we see a duplicate, move left until no duplicates
+            while freq[nums[r]] > 1:
+                freq[nums[l]] -= 1
+                sum1 -= nums[l]
+                if freq[nums[l]] == 0:
+                    del freq[nums[l]]
+                l += 1
+            
+            # if window is bigger than k, remove left
+            while (r - l + 1) > k:
+                freq[nums[l]] -= 1
+                sum1 -= nums[l]
+                if freq[nums[l]] == 0:
+                    del freq[nums[l]]
+                l += 1
+
+            # check if window size = k
+            if (r - l + 1) == k:
+                maxSum = max(maxSum, sum1)
+
+            r += 1
         return maxSum
  
 
