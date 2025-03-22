@@ -1,28 +1,28 @@
 class Solution(object):
     def lengthOfLongestSubstring(self, s):
-        n=len(s)
-        l=r=0
-        maxlen=0
-        #to check the window duplication we need dictionary
-        dict_wind={}
-        # it is a two pointer technique to manipulate the wind_size using the dictionary 
-        while r<n:
-            # the pointer r moves through out the last of the string whereas the l poiner points by skipping the
-            # unnecessary values to remove the duplicates in the dictionary
-            if s[r] in dict_wind:
-                if dict_wind[s[r]]>=l: #this check is to make sure the traversal i.e by moving the l pointer to he forward not backwards
-                    l=dict_wind[s[r]]+1 # cause as it skips the unnecessary traversal to skip, the pointer l 
-                #l should point to the next value to make it sensible(without duplication)
+        # n=len(s)
+        # l=r=0
+        # maxlen=0
+        # #to check the window duplication we need dictionary
+        # dict_wind={}
+        # # it is a two pointer technique to manipulate the wind_size using the dictionary 
+        # while r<n:
+        #     # the pointer r moves through out the last of the string whereas the l poiner points by skipping the
+        #     # unnecessary values to remove the duplicates in the dictionary
+        #     if s[r] in dict_wind:
+        #         if dict_wind[s[r]]>=l: #this check is to make sure the traversal i.e by moving the l pointer to he forward not backwards
+        #             l=dict_wind[s[r]]+1 # cause as it skips the unnecessary traversal to skip, the pointer l 
+        #         #l should point to the next value to make it sensible(without duplication)
 
-            # the pointer r moves through out the last of the string whereas the l poiner points by skipping the
-            # unnecessary values to remove the duplicates in the dictionary
+        #     # the pointer r moves through out the last of the string whereas the l poiner points by skipping the
+        #     # unnecessary values to remove the duplicates in the dictionary
             
-            dict_wind[s[r]]=r
-            maxlen=max(r-l+1, maxlen)
+        #     dict_wind[s[r]]=r
+        #     maxlen=max(r-l+1, maxlen)
 
-            r+=1
+        #     r+=1
 
-        return maxlen
+        # return maxlen
 
         # dict1={}
         # maxlen=0
@@ -69,4 +69,19 @@ class Solution(object):
         # return maxWind
 
 
-        
+        maxLen=0
+        l=r=0
+        arr=s
+        n=len(arr)
+        freq={}
+        while r<n:
+            if(arr[r] in freq):
+                if(freq[arr[r]]>=l):
+                    l=freq[arr[r]]+1
+                
+            freq[arr[r]]=r
+            print(maxLen, r-l+1)
+            maxLen=max(maxLen, r-l+1)
+            
+            r+=1
+        return maxLen
