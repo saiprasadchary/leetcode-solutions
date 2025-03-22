@@ -69,7 +69,7 @@ class Solution(object):
                 l += 1
             
             # if window is bigger than k, remove left
-            while (r - l + 1) > k:
+            if (r - l + 1) > k:
                 freq[nums[l]] -= 1
                 sum1 -= nums[l]
                 if freq[nums[l]] == 0:
