@@ -33,6 +33,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [1078-remove-outermost-parentheses](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1078-remove-outermost-parentheses) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
+| [1764-maximum-repeating-substring](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1764-maximum-repeating-substring) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [2032-largest-odd-number-in-string](https://github.com/saiprasadchary/leetcode-solutions/tree/master/2032-largest-odd-number-in-string) |
 ## Math
@@ -110,6 +111,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 |  |
 | ------- |
 | [0812-rotate-string](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0812-rotate-string) |
+| [1764-maximum-repeating-substring](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1764-maximum-repeating-substring) |
 ## Sorting
 |  |
 | ------- |
@@ -174,6 +176,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [0435-non-overlapping-intervals](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0435-non-overlapping-intervals) |
 | [0678-valid-parenthesis-string](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0678-valid-parenthesis-string) |
 | [0943-sum-of-subarray-minimums](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0943-sum-of-subarray-minimums) |
+| [1764-maximum-repeating-substring](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1764-maximum-repeating-substring) |
 ## Bit Manipulation
 |  |
 | ------- |
