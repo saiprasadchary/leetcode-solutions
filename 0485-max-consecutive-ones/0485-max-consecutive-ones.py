@@ -12,7 +12,7 @@ class Solution(object):
             if(nums[r]==0):
                 zeros+=1
             
-            while zeros>=1:
+            if zeros>=1:
                 if(nums[l]==0):
                     zeros-=1
                 l+=1
