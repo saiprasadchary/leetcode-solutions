@@ -5,7 +5,7 @@ class Solution(object):
         :rtype: int
         """
         k=3
-        return self.NSS(s, k)-self.NSS(s, k-1)
+        return self.NSSK(s, k)-self.NSSK1(s, k-1)
         # n=len(s)
         # cnt=0
         # last_seen={'a':-1, 'b':-1, 'c':-1}
@@ -43,7 +43,7 @@ class Solution(object):
         #             break
                 
         # return cnt
-    def NSS(self, s, k):
+    def NSSK1(self, s, k):
         l=r=0
         n=len(s)
         freq={}
@@ -58,6 +58,20 @@ class Solution(object):
                 if(freq[s[l]]==0):
                     del freq[s[l]]
                 l+=1
+                
+            cnt+=r-l+1
+            r+=1
+        return cnt
+
+    def NSSK(self, s, k):
+        l=r=0
+        n=len(s)
+        freq={}
+        cnt=0
+
+        while r<n:
+
+            freq[s[r]]=freq.get(s[r],0)+1
                 
             cnt+=r-l+1
             r+=1
