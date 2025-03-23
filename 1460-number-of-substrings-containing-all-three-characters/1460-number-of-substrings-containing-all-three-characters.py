@@ -52,11 +52,13 @@ class Solution(object):
         while r<n:
 
             freq[s[r]]=freq.get(s[r],0)+1
+
             while(len(freq)>k):
                 freq[s[l]]-=1
                 if(freq[s[l]]==0):
                     del freq[s[l]]
                 l+=1
+                
             cnt+=r-l+1
             r+=1
         return cnt
