@@ -1,63 +1,28 @@
-class Solution(object):
+import bisect, heapq
+
+class Solution:
     def findClosestElements(self, arr, k, x):
-        """
-        :type arr: List[int]
-        :type k: int
-        :type x: int
-        :rtype: List[int]
-        """
-        heap=[]
-        n=len(arr)
-
-        for i in range(n):
-            heapq.heappush(heap, (-abs(arr[i]-x), -arr[i]))
-            if len(heap)>k:
+        n = len(arr)
+        # 1) Find insertion point or closest position of x in arr
+        pos = bisect.bisect_left(arr, x)
+        # pick a window from max(0, pos-k) to min(n-1, pos+k)
+        left = max(0, pos - k)
+        right = min(n-1, pos + k)
+        
+        # 2) Use a max-heap of size k on just these ~2k elements
+        #    store (-diff, -val) so we pop the biggest diff first
+        heap = []
+        for i in range(left, right + 1):
+            diff = abs(arr[i] - x)
+            heapq.heappush(heap, (-diff, -arr[i]))
+            if len(heap) > k:
                 heapq.heappop(heap)
-        j=0
-    
-        resHeap=[]
+        
+        # 3) Pop from the heap into a list, then sort
+        result = []
         while heap:
-            _, negval=heapq.heappop(heap)
-            heapq.heappush(resHeap, -negval)
+            diff, negval = heapq.heappop(heap)
+            result.append(-negval)
         
-        while resHeap:
-            arr[j]=heapq.heappop(resHeap)
-            j+=1
-        
-        return arr[:k]
-
-
-
-
-
-
-
-
-
-
-
-
-        # n=len(arr)
-        # res=[]
-        # heap=[]
-        # for i in range(n):
-        #     dist=abs(arr[i]-x)
-        #     heapq.heappush(heap, (-dist, -arr[i]))
-        #     if len(heap)>k:
-        #         heapq.heappop(heap)
-        # print(heap)
-
-        # while heap:
-        #     x,y=heapq.heappop(heap)
-        #     res.append(-y)
-        
-        # f_res=[]
-        # min_heap=[]
-        # for x in res:
-        #     heapq.heappush(min_heap, x)
-        # while min_heap:
-        #     f_res.append(heapq.heappop(min_heap))
-        # return f_res
-            
-
-        
+        result.sort()
+        return result
