@@ -106,6 +106,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1813-maximum-erasure-value](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1813-maximum-erasure-value) |
+| [1848-sum-of-unique-elements](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1848-sum-of-unique-elements) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/saiprasadchary/leetcode-solutions/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 ## String Matching
@@ -153,6 +154,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [0451-sort-characters-by-frequency](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0451-sort-characters-by-frequency) |
 | [0692-top-k-frequent-words](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0692-top-k-frequent-words) |
 | [1034-subarrays-with-k-different-integers](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1034-subarrays-with-k-different-integers) |
+| [1848-sum-of-unique-elements](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1848-sum-of-unique-elements) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1890-sum-of-beauty-of-all-substrings) |
 ## Stack
 |  |
@@ -242,6 +244,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1813-maximum-erasure-value](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1813-maximum-erasure-value) |
+| [1848-sum-of-unique-elements](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1848-sum-of-unique-elements) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/saiprasadchary/leetcode-solutions/tree/master/2394-count-subarrays-with-score-less-than-k) |
 | [2527-count-subarrays-with-fixed-bounds](https://github.com/saiprasadchary/leetcode-solutions/tree/master/2527-count-subarrays-with-fixed-bounds) |
