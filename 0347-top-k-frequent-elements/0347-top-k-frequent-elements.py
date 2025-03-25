@@ -22,7 +22,7 @@ class Solution(object):
             nums[j]=val
             j+=1
 
-        return nums[:j]
+        return nums[:k]
 
 
 
