@@ -16,7 +16,7 @@ class Solution(object):
             if(len(heap)>k):
                 heapq.heappop(heap)
         j=0
-        print(heap)
+
         while heap:
             _, val = heappop(heap)
             nums[j]=val
