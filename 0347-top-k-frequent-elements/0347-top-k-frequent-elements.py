@@ -5,18 +5,63 @@ class Solution(object):
         :type k: int
         :rtype: List[int]
         """
-        heap=[]
         n=len(nums)
         freq={}
+        heap=[]
         for i in range(n):
-           freq[nums[i]]=freq.get(nums[i],0)+1
+            freq[nums[i]]=freq.get(nums[i],0)+1
         
-        for x,v in freq.items():
-            heapq.heappush(heap, (v,x))
+        for key, value in freq.items():
+            heapq.heappush(heap, (value, key))
             if(len(heap)>k):
                 heapq.heappop(heap)
-        nums=[]
+        j=0
+        print(heap)
         while heap:
-            nums.append(heapq.heappop(heap)[1])
-        return nums
+            _, val = heappop(heap)
+            nums[j]=val
+            j+=1
+
+        return nums[:j]
+
+
+
+
+
+
+
+
+
+
+        # heap=[]
+        # n=len(nums)
+        # freq={}
+        # for i in range(n):
+        #    freq[nums[i]]=freq.get(nums[i],0)+1
+        
+        # for x,v in freq.items():
+        #     heapq.heappush(heap, (v,x))
+        #     if(len(heap)>k):
+        #         heapq.heappop(heap)
+        # nums=[]
+        # while heap:
+        #     nums.append(heapq.heappop(heap)[1])
+        # return nums
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         
