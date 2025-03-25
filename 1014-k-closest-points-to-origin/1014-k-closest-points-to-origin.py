@@ -18,7 +18,6 @@ class Solution(object):
         j=0
         while heap:
             _, xypoints = heapq.heappop(heap)
-
             points[j]=xypoints
             j+=1
         return points[:j]
