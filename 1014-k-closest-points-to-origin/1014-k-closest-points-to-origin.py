@@ -11,15 +11,15 @@ class Solution(object):
             x1=points[i][0]
             y1=points[i][1]
             dist=sqrt(x1**2 + y1**2)
-            heapq.heappush(heap, (-dist, x1, y1))
+            heapq.heappush(heap, (-dist, points[i]))
 
             if(len(heap)>k):
                 heapq.heappop(heap)
         j=0
         while heap:
-            _, x, y = heapq.heappop(heap)
+            _, xypoints = heapq.heappop(heap)
 
-            points[j]=[x,y]
+            points[j]=xypoints
             j+=1
         return points[:j]
 
