@@ -13,6 +13,8 @@ class Solution(object):
             heapq.heappush(heap, (matrix[i][0], i, 0))
         # accumulating the first values of each list and allso their respective row and col 
 
+
+        # we collect the columns and push by incrementing 1 and push into the heap to sort.
         for j in range(k):
             val, row, col = heapq.heappop(heap)
             if(col+1< n):
