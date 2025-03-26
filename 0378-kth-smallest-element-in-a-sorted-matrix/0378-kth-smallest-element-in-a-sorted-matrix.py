@@ -15,10 +15,11 @@ class Solution(object):
 
 
         # we collect the columns and push by incrementing 1 and push into the heap to sort.
-        for j in range(k):
+        while heap and k>0:
             val, row, col = heapq.heappop(heap)
             if(col+1< n):
                 heapq.heappush(heap, (matrix[row][col+1], row, col+1))
+            k-=1
         return val
         
 
