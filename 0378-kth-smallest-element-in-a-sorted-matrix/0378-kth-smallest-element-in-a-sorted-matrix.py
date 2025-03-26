@@ -7,11 +7,19 @@ class Solution(object):
         """
 ###### Brute force's #####
         n=len(matrix)
+        m=len(matrix[0])
         temp=[]
         for i in range(n):
             temp.extend(matrix[i])
-        temp.sort()
-        return temp[k-1]
+            
+        heap=[]
+        for j in range(n*m):
+            heapq.heappush(heap, -temp[j])
+            if(len(heap)>k):
+                heapq.heappop(heap)
+
+        return -heap[0]
+        #return temp[k-1]
 
 
 
