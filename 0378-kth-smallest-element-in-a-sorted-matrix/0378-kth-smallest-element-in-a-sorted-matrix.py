@@ -5,14 +5,25 @@ class Solution(object):
         :type k: int
         :rtype: int
         """
+###### Brute force's #####
         n=len(matrix)
-        heap=[]
+        temp=[]
         for i in range(n):
-            for j in range(n):
-                heapq.heappush(heap, -matrix[i][j])
-                if(len(heap)>k):
-                    heapq.heappop(heap)
-        return -heap[0]
+            temp.extend(matrix[i])
+        temp.sort()
+        return temp[k-1]
+
+
+
+
+        # n=len(matrix)
+        # heap=[]
+        # for i in range(n):
+        #     for j in range(n):
+        #         heapq.heappush(heap, -matrix[i][j])
+        #         if(len(heap)>k):
+        #             heapq.heappop(heap)
+        # return -heap[0]
 
 
 
