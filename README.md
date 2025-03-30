@@ -64,6 +64,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0455-assign-cookies](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0455-assign-cookies) |
 | [0658-find-k-closest-elements](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0658-find-k-closest-elements) |
+| [0802-k-th-smallest-prime-fraction](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0802-k-th-smallest-prime-fraction) |
 | [0908-middle-of-the-linked-list](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0908-middle-of-the-linked-list) |
 ## Greedy
 |  |
@@ -128,6 +129,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [0455-assign-cookies](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0455-assign-cookies) |
 | [0658-find-k-closest-elements](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0658-find-k-closest-elements) |
 | [0692-top-k-frequent-words](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0692-top-k-frequent-words) |
+| [0802-k-th-smallest-prime-fraction](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0802-k-th-smallest-prime-fraction) |
 | [1014-k-closest-points-to-origin](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1014-k-closest-points-to-origin) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1741-sort-array-by-increasing-frequency) |
 ## Heap (Priority Queue)
@@ -140,6 +142,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [0451-sort-characters-by-frequency](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0451-sort-characters-by-frequency) |
 | [0658-find-k-closest-elements](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0658-find-k-closest-elements) |
 | [0692-top-k-frequent-words](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0692-top-k-frequent-words) |
+| [0802-k-th-smallest-prime-fraction](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0802-k-th-smallest-prime-fraction) |
 | [1014-k-closest-points-to-origin](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1014-k-closest-points-to-origin) |
 ## Bucket Sort
 |  |
@@ -233,6 +236,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [0692-top-k-frequent-words](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0692-top-k-frequent-words) |
 | [0735-asteroid-collision](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0735-asteroid-collision) |
 | [0792-binary-search](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0792-binary-search) |
+| [0802-k-th-smallest-prime-fraction](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0802-k-th-smallest-prime-fraction) |
 | [0890-lemonade-change](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0890-lemonade-change) |
 | [0940-fruit-into-baskets](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0940-fruit-into-baskets) |
 | [0943-sum-of-subarray-minimums](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0943-sum-of-subarray-minimums) |
@@ -302,6 +306,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0658-find-k-closest-elements](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0658-find-k-closest-elements) |
 | [0792-binary-search](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0792-binary-search) |
+| [0802-k-th-smallest-prime-fraction](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0802-k-th-smallest-prime-fraction) |
 | [1046-max-consecutive-ones-iii](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1046-max-consecutive-ones-iii) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/saiprasadchary/leetcode-solutions/tree/master/2394-count-subarrays-with-score-less-than-k) |
 ## Prefix Sum
