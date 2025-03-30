@@ -7,31 +7,31 @@ class Solution(object):
         :type k: int
         :rtype: List[int]
         """
-        n = len(arr)
-        heap = []
-        visited = set()
-        
-        # Start with the pair (0, n-1)
-        heapq.heappush(heap, (arr[0] / float(arr[n-1]), 0, n-1))
-        visited.add((0, n-1))
-        
-        # Pop k-1 times; the kth pop will give us the kth smallest fraction.
-        for _ in range(k - 1):
-            frac, curr_i, curr_j = heapq.heappop(heap)
-            
-            # Neighbor: move down (increase row index)
-            if curr_i + 1 < n and (curr_i + 1, curr_j) not in visited:
-                heapq.heappush(heap, (arr[curr_i+1] / float(arr[curr_j]), curr_i+1, curr_j))
-                visited.add((curr_i+1, curr_j))
-            
-            # Neighbor: move left (decrease column index)
-            if curr_j - 1 >= 0 and (curr_i, curr_j - 1) not in visited:
-                heapq.heappush(heap, (arr[curr_i] / float(arr[curr_j-1]), curr_i, curr_j-1))
-                visited.add((curr_i, curr_j-1))
-        
-        # The kth smallest fraction is at the top of the heap now.
-        frac, i, j = heapq.heappop(heap)
-        return [arr[i], arr[j]]
+        n=len(arr)
+        visited=set()
+        heap=[]
+
+        if(len(arr)>1):
+            heapq.heappush(heap, ((arr[0]/float(arr[n-1])), 0, n-1))
+            visited.add((0,n-1))
+
+            while heap and k>0:
+                val, i, j = heapq.heappop(heap)
+
+                if(i+1<n) and (i+1, j) not in visited:
+                    frac= (arr[i+1]/float(arr[j]))
+                    heapq.heappush(heap, (frac, i+1, j))
+                    visited.add((i+1, j))
+
+                if(j-1>=0) and (i, j-1) not in visited:
+                    frac=(arr[i])/float(arr[j-1])
+                    heapq.heappush(heap, (frac, i, j-1))
+                    visited.add((i, j-1))
+                k-=1
+
+            return [arr[i],arr[j]]
+        else:
+            return arr
 
 
 
