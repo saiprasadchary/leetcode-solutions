@@ -1,32 +1,42 @@
 
 import heapq
-from collections import Counter
-
 
 class Solution:
     def leastInterval(self, tasks, n):
         # Count frequencies of each task
-        counts = Counter(tasks)
-        # Build a max-heap by pushing negative counts
-        pq = [-cnt for cnt in counts.values()]
-        heapq.heapify(pq)
+        m=len(tasks)
+        freq={}
+        heap=[]
+
+        for char in tasks:
+            freq[char]=freq.get(char, 0)+1
+            
+        # freq{"A":3, "B":2, "c":2}
+
+        # pushing the freqval into the maxheap
+        for v in freq.values():
+            heapq.heappush(heap, -v)
         
-        result = 0
-        # While there are still tasks to schedule
-        while pq:
-            time = 0
-            tmp = []
-            # Try to execute up to n+1 tasks in this cycle
-            for i in range(n + 1):
-                if pq:
-                    # Pop the most frequent task (as negative, so add 1 to increment toward 0)
-                    tmp.append(heapq.heappop(pq) + 1)
-                    time += 1
-            # Push remaining tasks (with non-zero counts) back into the heap
-            for t in tmp:
-                if t < 0:
-                    heapq.heappush(pq, t)
-            # If heap is empty, we don't need to idle for a full cycle
-            result += time if not pq else n + 1
+        time=0
+        que=deque()
+
+        while heap or que:
+            time+=1
+
+            if heap:
+                cnt=1+heapq.heappop(heap)
+
+                if cnt:
+                    que.append([cnt, time+n]) # remaining taskscount and the idle time for that particular task
+
+            if que and que[0][1]==time:
+                heapq.heappush(heap, que.popleft()[0])
+
+        return time
+
         
-        return result
+        
+
+        
+        
+        
