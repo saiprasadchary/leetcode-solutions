@@ -1,17 +1,20 @@
 class Solution(object):
     def firstUniqChar(self, s):
-        seen={};
-        for ind , val in enumerate(s):
-            if val not in seen:
-                seen[val]=ind;
-            else:
-                seen[val]=-1;
-        k=float('inf');
-        for u,v in seen.items():
-            if v<k and v>-1:
-                k=v;
+        """
+        :type s: str
+        :rtype: int
+        """
+        freq={}
+
+        for char in s:
+            # count the freq of each character
+            freq[char]=freq.get(char, 0)+1
+            #freq={"s":1 }
+
         
-        if k==float('inf'):
-            return -1;
-        else:
-            return k
+        for i in range(len(s)):
+            if(freq[s[i]]==1):
+                return i
+                
+        return -1
+        
