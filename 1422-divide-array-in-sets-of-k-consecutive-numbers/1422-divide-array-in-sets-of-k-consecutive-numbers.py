@@ -10,15 +10,13 @@ class Solution(object):
             freq[i]=freq.get(i,0)+1
         
         for val in sorted(freq.keys()):
-            if freq[val]==0:
-                continue
+
             while freq[val]:
                 for j in range(k):
                     curr=val+j
                     if(curr not in freq) or (freq[curr] == 0):
                         return False
-                    freq[curr]-=1
-                    
+                    freq[curr]-=1       
         return True
 
 
