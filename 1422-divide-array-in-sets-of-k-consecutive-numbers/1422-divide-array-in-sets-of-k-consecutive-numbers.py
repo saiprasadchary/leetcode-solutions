@@ -8,10 +8,10 @@ class Solution(object):
         freq={}
         for i in nums:
             freq[i]=freq.get(i,0)+1
-        
-        for val in sorted(freq.keys()):
-            if freq[val]==0:
-                continue
+        freq_keys=sorted(freq.keys())
+
+        for val in freq_keys:
+
             while freq[val]:
                 for j in range(k):
                     curr=val+j
