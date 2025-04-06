@@ -1,25 +1,31 @@
-class Solution:
+class Solution(object):
     def isPossibleDivide(self, nums, k):
-        n = len(nums)
-        # Check if n is divisible by k
-        if n % k != 0:
+        n=len(nums)
+        cnt=0
+
+        if(n%k !=0):
             return False
+        freq={}
+        for i in nums:
+            freq[i]=freq.get(i,0)+1
         
-        # Sort the array to consider consecutive sequences
-        nums.sort()
-        
-        # Use a frequency dictionary to track counts
-        freq = {}
-        for num in nums:
-            freq[num] = freq.get(num, 0) + 1
-        
-        # For every number, try to form groups of k consecutive numbers
-        for num in nums:
-            if freq[num] > 0:
-                count = freq[num]
-                for j in range(num, num + k):
-                    if freq.get(j, 0) < count:
+        for val in sorted(freq.keys()):
+            if freq[val]==0:
+                continue
+            while freq[val]:
+                for j in range(k):
+                    curr=val+j
+                    if(curr not in freq) or (freq[curr] == 0):
                         return False
-                    freq[j] -= count
-        
+                    freq[curr]-=1
+                    
         return True
+
+
+        
+       
+                
+                    
+
+
+        
