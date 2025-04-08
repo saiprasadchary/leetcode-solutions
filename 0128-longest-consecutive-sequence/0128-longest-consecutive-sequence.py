@@ -1,21 +1,41 @@
 class Solution(object):
     def longestConsecutive(self, nums):
-        
-        #bruteforce approach
         if not nums:
             return 0
-        if len(nums)==1:
+        n=len(nums)
+        if n==1:
             return 1
-        maxlen=1
-        cnt=1
-        nums=list(set(nums))
-        nums.sort()
-        for i in range(1, len(nums)):
-            if(nums[i-1]+1==nums[i]):
-                cnt+=1
-                maxlen=max(cnt, maxlen)
-            else:
-                cnt=1
+        freq=set(nums)
+        cnt=0
+        maxlen=0
+        for i in range(n):
+            if(nums[i]-1 not in freq):
+                k=0
+                cnt=0
+                while nums[i]+k in freq:
+                    cnt+=1
+ 
+                    maxlen=max(maxlen, cnt)
+                    k+=1
+            
         return maxlen
+
+        
+        # #bruteforce approach
+        # if not nums:
+        #     return 0
+        # if len(nums)==1:
+        #     return 1
+        # maxlen=1
+        # cnt=1
+        # nums=list(set(nums))
+        # nums.sort()
+        # for i in range(1, len(nums)):
+        #     if(nums[i-1]+1==nums[i]):
+        #         cnt+=1
+        #         maxlen=max(cnt, maxlen)
+        #     else:
+        #         cnt=1
+        # return maxlen
 
         
