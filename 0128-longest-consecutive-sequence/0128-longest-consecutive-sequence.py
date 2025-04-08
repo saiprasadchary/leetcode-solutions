@@ -4,6 +4,7 @@ class Solution(object):
             return 0
        
         set1=set(nums)
+
         maxlen=0
         for num in set1:
             if(num-1 not in set1):
