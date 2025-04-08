@@ -1,34 +1,30 @@
 class Solution(object):
-    
     def isPossible(self, nums):
-        """
-        :type nums: List[int]
-        :rtype: bool
-        """
+        # Build frequency dictionary.
         freq = {}
-        tails = {}
-        
-        # Build the frequency dictionary.
         for num in nums:
             freq[num] = freq.get(num, 0) + 1
+
+        vacancy = {}  # counts of subsequences waiting for a specific number
         
-        # Process numbers in order.
         for num in nums:
-            if freq[num] == 0:
+            if freq.get(num, 0) == 0:
                 continue
-            # If there is a subsequence ending with num-1, extend it.
-            if tails.get(num - 1, 0) > 0:
-                tails[num - 1] -= 1
-                tails[num] = tails.get(num, 0) + 1
+
+            # If there's a subsequence waiting for num, extend that subsequence:
+            if vacancy.get(num, 0) > 0:
+                vacancy[num] -= 1
+                # When num is added to a subsequence, the subsequence now expects num+1.
+                vacancy[num + 1] = vacancy.get(num + 1, 0) + 1
                 freq[num] -= 1
-            # Otherwise, try to start a new subsequence num, num+1, num+2.
-            elif freq.get(num + 1, 0) > 0 and freq.get(num + 2, 0) > 0:
+            # Otherwise, try to create a new subsequence starting from num
+            elif freq.get(num, 0) > 0 and freq.get(num + 1, 0) > 0 and freq.get(num + 2, 0) > 0:
                 freq[num] -= 1
                 freq[num + 1] -= 1
                 freq[num + 2] -= 1
-                tails[num + 2] = tails.get(num + 2, 0) + 1
+                # New subsequence now expects num+3.
+                vacancy[num + 3] = vacancy.get(num + 3, 0) + 1
             else:
-                # Cannot form a valid subsequence with num.
                 return False
         
         return True
