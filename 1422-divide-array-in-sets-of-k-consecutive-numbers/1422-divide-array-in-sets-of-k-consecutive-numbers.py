@@ -12,6 +12,8 @@ class Solution(object):
         freq_keys=sorted(freq.keys())
 
         for val in freq_keys:
+            if val==0:
+                continue
 
             while freq[val]:
                 for j in range(1, k):
@@ -19,7 +21,8 @@ class Solution(object):
                     if(curr not in freq) or (freq[curr] == 0):
                         return False
                     freq[curr]-=1   
-                freq[val]-=1    
+                freq[val]-=1 
+                   
         return True
 
 
