@@ -2,17 +2,14 @@ class Solution(object):
     def longestConsecutive(self, nums):
         if not nums:
             return 0
-        n=len(nums)
-        if n==1:
-            return 1
-        freq=set(nums)
-        
+       
+        set1=set(nums)
         maxlen=0
-        for num in freq:
-            if(num-1 not in freq):
+        for num in set1:
+            if(num-1 not in set1):
                 k=0
                 cnt=0
-                while num+k in freq:
+                while num+k in set1:
                     cnt+=1
                     maxlen=max(maxlen, cnt)
                     k+=1
