@@ -16,7 +16,7 @@ class Solution(object):
             if players[i]<=trainers[j]:
                 i+=1
             j+=1
-        print(i,j)
+
         return i
         
 
