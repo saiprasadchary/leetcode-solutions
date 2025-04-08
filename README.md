@@ -68,6 +68,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [0658-find-k-closest-elements](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0658-find-k-closest-elements) |
 | [0802-k-th-smallest-prime-fraction](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0802-k-th-smallest-prime-fraction) |
 | [0908-middle-of-the-linked-list](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0908-middle-of-the-linked-list) |
+| [2497-maximum-matching-of-players-with-trainers](https://github.com/saiprasadchary/leetcode-solutions/tree/master/2497-maximum-matching-of-players-with-trainers) |
 ## Greedy
 |  |
 | ------- |
@@ -83,6 +84,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [0890-lemonade-change](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0890-lemonade-change) |
 | [1422-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1422-divide-array-in-sets-of-k-consecutive-numbers) |
 | [2032-largest-odd-number-in-string](https://github.com/saiprasadchary/leetcode-solutions/tree/master/2032-largest-odd-number-in-string) |
+| [2497-maximum-matching-of-players-with-trainers](https://github.com/saiprasadchary/leetcode-solutions/tree/master/2497-maximum-matching-of-players-with-trainers) |
 ## Trie
 |  |
 | ------- |
@@ -149,6 +151,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [1256-rank-transform-of-an-array](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1256-rank-transform-of-an-array) |
 | [1422-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1422-divide-array-in-sets-of-k-consecutive-numbers) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1741-sort-array-by-increasing-frequency) |
+| [2497-maximum-matching-of-players-with-trainers](https://github.com/saiprasadchary/leetcode-solutions/tree/master/2497-maximum-matching-of-players-with-trainers) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -281,6 +284,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [1848-sum-of-unique-elements](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1848-sum-of-unique-elements) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/saiprasadchary/leetcode-solutions/tree/master/2394-count-subarrays-with-score-less-than-k) |
+| [2497-maximum-matching-of-players-with-trainers](https://github.com/saiprasadchary/leetcode-solutions/tree/master/2497-maximum-matching-of-players-with-trainers) |
 | [2527-count-subarrays-with-fixed-bounds](https://github.com/saiprasadchary/leetcode-solutions/tree/master/2527-count-subarrays-with-fixed-bounds) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/saiprasadchary/leetcode-solutions/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 ## Monotonic Stack
