@@ -68,6 +68,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [0658-find-k-closest-elements](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0658-find-k-closest-elements) |
 | [0802-k-th-smallest-prime-fraction](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0802-k-th-smallest-prime-fraction) |
 | [0908-middle-of-the-linked-list](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0908-middle-of-the-linked-list) |
+| [0917-boats-to-save-people](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0917-boats-to-save-people) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/saiprasadchary/leetcode-solutions/tree/master/2497-maximum-matching-of-players-with-trainers) |
 ## Greedy
 |  |
@@ -82,6 +83,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [0678-valid-parenthesis-string](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0678-valid-parenthesis-string) |
 | [0876-hand-of-straights](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0876-hand-of-straights) |
 | [0890-lemonade-change](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0890-lemonade-change) |
+| [0917-boats-to-save-people](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0917-boats-to-save-people) |
 | [1422-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1422-divide-array-in-sets-of-k-consecutive-numbers) |
 | [2032-largest-odd-number-in-string](https://github.com/saiprasadchary/leetcode-solutions/tree/master/2032-largest-odd-number-in-string) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/saiprasadchary/leetcode-solutions/tree/master/2497-maximum-matching-of-players-with-trainers) |
@@ -147,6 +149,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [0692-top-k-frequent-words](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0692-top-k-frequent-words) |
 | [0802-k-th-smallest-prime-fraction](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0802-k-th-smallest-prime-fraction) |
 | [0876-hand-of-straights](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0876-hand-of-straights) |
+| [0917-boats-to-save-people](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0917-boats-to-save-people) |
 | [1014-k-closest-points-to-origin](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1014-k-closest-points-to-origin) |
 | [1256-rank-transform-of-an-array](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1256-rank-transform-of-an-array) |
 | [1422-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1422-divide-array-in-sets-of-k-consecutive-numbers) |
@@ -268,6 +271,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [0802-k-th-smallest-prime-fraction](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0802-k-th-smallest-prime-fraction) |
 | [0876-hand-of-straights](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0876-hand-of-straights) |
 | [0890-lemonade-change](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0890-lemonade-change) |
+| [0917-boats-to-save-people](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0917-boats-to-save-people) |
 | [0940-fruit-into-baskets](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0940-fruit-into-baskets) |
 | [0943-sum-of-subarray-minimums](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0943-sum-of-subarray-minimums) |
 | [0966-binary-subarrays-with-sum](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0966-binary-subarrays-with-sum) |
