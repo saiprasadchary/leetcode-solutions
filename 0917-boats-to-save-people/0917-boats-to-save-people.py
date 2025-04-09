@@ -14,7 +14,7 @@ class Solution(object):
         boats=0
 
         while left<=right:
-            print(left, right)
+
             if(people[left]+people[right]<=limit):
                 boats+=1
                 left+=1
