@@ -33,10 +33,10 @@ class Solution(object):
                 cnt2+=1
 
         res=[]
-        print(cnt1, cnt2)
+
         if(cnt1>n/3):
             res.append(cand1)
-        if(cnt2>n/3) and cnt2!=0:
+        if(cnt2>n/3):
             res.append(cand2)
         return res
     
