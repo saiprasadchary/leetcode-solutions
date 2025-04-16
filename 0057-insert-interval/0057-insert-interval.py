@@ -15,7 +15,7 @@ class Solution(object):
         while i<n and intervals[i][1]<newInterval[0]:
             res.append(intervals[i])
             i+=1
-        
+            
         # Now overlaping part here the overlapping is alreadily defined by above condition check
             # all we need to do is to find where the second value in the new interval and the first value in the current array are <=
              #consider interval [3, 3] and newInterval [3, 3] 
