@@ -11,7 +11,7 @@ class Solution:
 
         #we just need to check if there is a overlapping or not
         #consider the initial values as temp used for comparisions
-         #_________Overlap comparision is checked as if the temp is to the roght of the current arr values and arr[i][0]<=temp[i]__
+         #_________Overlap comparision is checked as if the temp is to the right of the current arr values and arr[i][0]<=temp[i]__
 
         while i< n:
 
