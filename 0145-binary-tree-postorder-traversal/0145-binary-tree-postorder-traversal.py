@@ -10,14 +10,28 @@ class Solution(object):
         :type root: Optional[TreeNode]
         :rtype: List[int]
         """
-        res=[]
+        # res=[]
 
-        def DFS(node):
-            if node is None:
-                return
-            DFS(node.left)
-            DFS(node.right)
-            res.append(node.val)
-        DFS(root)
-        return res
+        # def DFS(node):
+        #     if node is None:
+        #         return
+        #     DFS(node.left)
+        #     DFS(node.right)
+        #     res.append(node.val)
+        # DFS(root)
+        # return res
+
+
+    def postorderTraversal(self, root):
+        self.res=[]
+        self.DFS(root)
+        return self.res
+
+    def DFS(self, node):
+        if(node is None):
+            return
+        self.DFS(node.left)
+        self.DFS(node.right)
+        self.res.append(node.val)
+
         
