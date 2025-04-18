@@ -5,19 +5,35 @@
 #         self.left = left
 #         self.right = right
 class Solution(object):
+    # def inorderTraversal(self, root):
+    #     """
+    #     :type root: Optional[TreeNode]
+    #     :rtype: List[int]
+    #     """
+    #     res=[]
+    #     def DFS(node):
+    #         if node is None:
+    #             return
+    #         DFS(node.left)
+    #         res.append(node.val)
+    #         DFS(node.right)
+    #     DFS(root)
+    #     return res
+
     def inorderTraversal(self, root):
-        """
-        :type root: Optional[TreeNode]
-        :rtype: List[int]
-        """
-        res=[]
-        def DFS(node):
-            if node is None:
-                return
-            DFS(node.left)
-            res.append(node.val)
-            DFS(node.right)
-        DFS(root)
-        return res
+        self.res=[]
+        self.DFS(root)
+        return self.res
+
+    def DFS(self, node):
+        if node is None:
+            return
+        self.DFS(node.left)
+        self.res.append(node.val)
+        self.DFS(node.right)
+    
+
+
+
 
         
