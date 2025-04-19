@@ -12,14 +12,29 @@ class Solution(object):
         :rtype: List[int]
         """
         res=[]
-        def dfs(node):
-            if(node==None):
-                return
+        stack=[root]
+        if root==None:
+            return res
+        while stack:
+            node=stack.pop()
             res.append(node.val)
-            dfs(node.left)
-            dfs(node.right)
-        dfs(root)
+            if(node.right):
+                stack.append(node.right)
+            if(node.left):
+                stack.append(node.left)
         return res
+
+
+
+        # res=[]
+        # def dfs(node):
+        #     if(node==None):
+        #         return
+        #     res.append(node.val)
+        #     dfs(node.left)
+        #     dfs(node.right)
+        # dfs(root)
+        # return res
 
 # another approach
 
@@ -42,6 +57,13 @@ class Solution(object):
     #     self.res.append(node.val)
     #     # Recurse left, then right
     #     self._preorder(node.left)
+          
+
+            
+            
+
+            
+          
 
 
         
