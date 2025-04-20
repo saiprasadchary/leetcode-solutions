@@ -8,27 +8,37 @@
 
 class Solution(object):
     
-    # def inorderTraversal(self, root):
-    #     stack=[root]
-    #     while stack:
-
-
-
-
     def inorderTraversal(self, root):
-        """
-        :type root: Optional[TreeNode]
-        :rtype: List[int]
-        """
+        stack=[]
+        node = root
         res=[]
-        def DFS(node):
-            if node is None:
-                return
-            DFS(node.left)
-            res.append(node.val)
-            DFS(node.right)
-        DFS(root)
-        return res
+        
+        while stack or node:
+            if node is not None:
+                stack.append(node)
+                node=node.left
+            else:
+                node=stack.pop()
+                res.append(node.val)
+                node=node.right
+        return res 
+
+
+
+    # def inorderTraversal(self, root):
+    #     """
+    #     :type root: Optional[TreeNode]
+    #     :rtype: List[int]
+    #     """
+    #     res=[]
+    #     def DFS(node):
+    #         if node is None:
+    #             return
+    #         DFS(node.left)
+    #         res.append(node.val)
+    #         DFS(node.right)
+    #     DFS(root)
+    #     return res
 
     # def inorderTraversal(self, root):
     #     self.res=[]
