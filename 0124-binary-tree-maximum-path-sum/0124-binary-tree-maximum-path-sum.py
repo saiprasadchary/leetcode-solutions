@@ -10,10 +10,11 @@ class Solution(object):
         :type root: Optional[TreeNode]
         :rtype: int
         """
-        self.maxPathSum = float("-inf")
+
         if root is None:
             return 0
-
+        self.maxPathSum = float("-inf")
+        
         def maxPath(node):
             if(node is None):
                 return 0
@@ -26,7 +27,7 @@ class Solution(object):
             rightSum=max(0, rightSum)
 
             self.maxPathSum=max(self.maxPathSum, leftSum+rightSum+node.val)
-            print(self.maxPathSum)
+
 
             # the above leftSum and rightSum logic is defined here
             return node.val+max(leftSum, rightSum)
