@@ -119,6 +119,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [0876-hand-of-straights](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0876-hand-of-straights) |
 | [0940-fruit-into-baskets](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0940-fruit-into-baskets) |
 | [0966-binary-subarrays-with-sum](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0966-binary-subarrays-with-sum) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1034-subarrays-with-k-different-integers](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1034-subarrays-with-k-different-integers) |
 | [1256-rank-transform-of-an-array](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1256-rank-transform-of-an-array) |
 | [1370-count-number-of-nice-subarrays](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1370-count-number-of-nice-subarrays) |
@@ -155,6 +156,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [0876-hand-of-straights](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0876-hand-of-straights) |
 | [0917-boats-to-save-people](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0917-boats-to-save-people) |
 | [1014-k-closest-points-to-origin](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1014-k-closest-points-to-origin) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1256-rank-transform-of-an-array](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1256-rank-transform-of-an-array) |
 | [1422-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1422-divide-array-in-sets-of-k-consecutive-numbers) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1741-sort-array-by-increasing-frequency) |
@@ -247,6 +249,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0127-word-ladder](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0127-word-ladder) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 ## Array
 |  |
 | ------- |
@@ -413,6 +416,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [0144-binary-tree-preorder-traversal](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0145-binary-tree-postorder-traversal) |
 | [0543-diameter-of-binary-tree](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0543-diameter-of-binary-tree) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -424,6 +428,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [0144-binary-tree-preorder-traversal](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0145-binary-tree-postorder-traversal) |
 | [0543-diameter-of-binary-tree](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0543-diameter-of-binary-tree) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 ## Binary Tree
 |  |
 | ------- |
@@ -437,4 +442,5 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [0144-binary-tree-preorder-traversal](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0145-binary-tree-postorder-traversal) |
 | [0543-diameter-of-binary-tree](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0543-diameter-of-binary-tree) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 <!---LeetCode Topics End-->
