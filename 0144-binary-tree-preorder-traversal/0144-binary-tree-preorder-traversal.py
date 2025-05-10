@@ -14,7 +14,7 @@ class Solution(object):
         # using a stack 
         res=[]
         stack=[root]
-        if root==None:
+        if root is None:
             return res
         while stack:
             node=stack.pop()
