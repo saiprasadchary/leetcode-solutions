@@ -11,6 +11,7 @@ class Solution(object):
         :type root: Optional[TreeNode]
         :rtype: List[int]
         """
+        # using a stack 
         res=[]
         stack=[root]
         if root==None:
