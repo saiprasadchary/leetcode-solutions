@@ -25,9 +25,9 @@ class Solution(object):
                 stack.append(node.left)
         return res
 
-
-
         # res=[]
+        # if root is None:
+        #     return res
         # def dfs(node):
         #     if(node==None):
         #         return
