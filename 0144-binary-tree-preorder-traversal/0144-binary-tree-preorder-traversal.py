@@ -19,6 +19,7 @@ class Solution(object):
         while stack:
             node=stack.pop()
             res.append(node.val)
+            #first comes right as we are using stack
             if(node.right):
                 stack.append(node.right)
             if(node.left):
