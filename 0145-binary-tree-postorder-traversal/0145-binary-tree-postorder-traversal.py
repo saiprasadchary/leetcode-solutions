@@ -38,22 +38,42 @@
 
 class Solution(object):
     def postorderTraversal(self, root):
-        st2=[]
+
+        # using two stacks
+        # st2=[]
+        # res=[]
+        # if root is None:
+        #     return res
+        # st1=[root]
+
+        # while st1:
+        #     node=st1.pop()
+        #     st2.append(node)
+        #     if(node.left):
+        #         st1.append(node.left)
+        #     if(node.right):
+        #         st1.append(node.right)
+        
+        # while st2:
+        #     res.append(st2.pop().val)
+        # return res
+
+
         res=[]
         if root is None:
             return res
-        st1=[root]
+        stack=[]
+        node=root
+        while stack or node:
+            if node is not None:
+                stack.append(node)
+                res.append(node.val)
+                node=node.right
+            else:
+                node=stack.pop()
+                node=node.left
+        return res[::-1]
 
-        while st1:
-            node=st1.pop()
-            st2.append(node)
-            if(node.left):
-                st1.append(node.left)
-            if(node.right):
-                st1.append(node.right)
-        
-        while st2:
-            res.append(st2.pop().val)
-        return res
+
         
         
