@@ -11,46 +11,26 @@ class Solution(object):
         :type root: Optional[TreeNode]
         :rtype: List[List[int]]
         """
-        if not root:
-            return [] 
-        que=deque()
-        que.append(root)
-        res=[]
+        # if not root:
+        #     return [] 
+        # que=deque()
+        # que.append(root)
+        # res=[]
   
-        while que:
+        # while que:
             
-            loop_len=len(que)
-            temp=[]
-            for i in range(loop_len):
-                node=que.popleft()
-                temp.append(node.val)
-                if(node.left):
-                    que.append(node.left)
-                if(node.right):
-                    que.append(node.right)
+        #     loop_len=len(que)
+        #     temp=[]
+        #     for i in range(loop_len):
+        #         node=que.popleft()
+        #         temp.append(node.val)
+        #         if(node.left):
+        #             que.append(node.left)
+        #         if(node.right):
+        #             que.append(node.right)
                 
-            res.append(temp)
-        return res
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        #     res.append(temp)
+        # return res
 
 
 
@@ -61,10 +41,14 @@ class Solution(object):
         que.append(root)
         while que:
             n=len(que)
-            node=que.popleft()
             temp=[]
             while n:
+                node=que.popleft()
                 temp.append(node.val)
+                if node.left:
+                    que.append(node.left)
+                if node.right:
+                    que.append(node.right)
                 n-=1
             res.append(temp)
         return res
