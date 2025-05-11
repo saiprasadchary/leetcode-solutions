@@ -58,7 +58,9 @@ class Solution(object):
         #     res.append(st2.pop().val)
         # return res
 
+# this approach is the reverse engineeering approach, and by manipulating the inorder traversal by taking right node till end and then going for left -> vice versa of inorder approach
 
+ #-> first use the output and reverse it then the idea forms
         res=[]
         if root is None:
             return res
