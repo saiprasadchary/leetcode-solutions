@@ -13,7 +13,8 @@ class Solution(object):
         """
         if not root:
             return [] 
-        que=deque([root])
+        que=deque()
+        que.append(root)
         res=[]
   
         while que:
