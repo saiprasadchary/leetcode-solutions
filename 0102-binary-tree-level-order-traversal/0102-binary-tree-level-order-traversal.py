@@ -32,4 +32,43 @@ class Solution(object):
             res.append(temp)
         return res
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        res=[]
+        if root is None:
+            return res
+        que=deque()
+        que.append(root)
+        while que:
+            n=len(que)
+            node=que.popleft()
+            temp=[]
+            while n:
+                temp.append(node.val)
+                n-=1
+            res.append(temp)
+        return res
+
+
+
         
