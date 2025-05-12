@@ -40,7 +40,7 @@ class Solution(object):
             if(left==0 or right==0):
                 return -1
             if abs(left-right)>1:
-                return -1 # which inturn gets assigns to the upper level, either for the right or left
+                return -1 # which inturn gets assigned to the upper level, either for the right or left
             return max(left, right)
 
         return height_check(root)!=-1
