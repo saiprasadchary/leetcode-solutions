@@ -4,8 +4,9 @@ class Solution(object):
         :type num: str
         :rtype: bool
         """
+        n=len(num)
         even=odd=0
-        for i in range(len(num)):
+        for i in range(n):
             if i%2==0:
                 even+=int(num[i])
             else:
