@@ -6,6 +6,7 @@
 #         self.right = right
 class Solution(object):
     def maxDepth(self, root):
+        # when it meets the leaf node and null
         if(root==None):
             return 0
         left=1+self.maxDepth(root.left)
