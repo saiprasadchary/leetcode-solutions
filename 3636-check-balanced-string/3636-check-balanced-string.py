@@ -4,7 +4,7 @@ class Solution(object):
         :type num: str
         :rtype: bool
         """
-        even, odd =0,0
+        even=odd=0
         for i in range(len(num)):
             if i%2==0:
                 even+=int(num[i])
