@@ -10,10 +10,26 @@ class Solution(object):
         :type root: Optional[TreeNode]
         :rtype: int
         """
-        if(root==None):
-            return 0
-        left=self.maxDepth(root.left)
-        right=self.maxDepth(root.right)
+        # if(root==None):
+        #     return 0
+        # left=self.maxDepth(root.left)
+        # right=self.maxDepth(root.right)
 
-        return 1+max(left, right)
+        # return 1+max(left, right)
+
+        if root is None:
+            return 0
+        que=deque()
+        cnt=0
+        que.append(root)
+        while que:
+            n=len(que)
+            cnt+=1
+            for i in range(n):
+                node=que.popleft()
+                if(node.left):
+                    que.append(node.left)
+                if(node.right):
+                    que.append(node.right)
+        return cnt
         
