@@ -37,6 +37,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [1764-maximum-repeating-substring](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1764-maximum-repeating-substring) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [2032-largest-odd-number-in-string](https://github.com/saiprasadchary/leetcode-solutions/tree/master/2032-largest-odd-number-in-string) |
+| [3636-check-balanced-string](https://github.com/saiprasadchary/leetcode-solutions/tree/master/3636-check-balanced-string) |
 ## Math
 |  |
 | ------- |
