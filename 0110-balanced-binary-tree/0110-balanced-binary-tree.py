@@ -6,6 +6,7 @@
 #         self.right = right
 class Solution(object):
     def isBalanced(self, root):
+        # Definition for a binary tree node.
         """
         :type root: Optional[TreeNode]
         :rtype: bool
@@ -30,6 +31,52 @@ class Solution(object):
             return True
         else:
             return False
+
+        def height_check(root):
+            if root is None:
+                return 0
+            left=1+height_check(root.left)
+            right=1+height_check(root.right)
+            if abs(l-r)>1:
+                return -1
+            return max(left, right)
+
+        if root is None:
+            return True
+        else:
+            l=height_check(root.left)
+            r=height_check(root.right)
+            print(l,r)
+            if abs(l-r)>1:
+                return False
+            return True
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
