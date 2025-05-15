@@ -11,6 +11,7 @@ class Solution(object):
         :type q: Optional[TreeNode]
         :rtype: bool
         """
+        # if both the nodes are null nodes, return True
         if(not p and not q):
             return True
         if(p is None  or q is None):
