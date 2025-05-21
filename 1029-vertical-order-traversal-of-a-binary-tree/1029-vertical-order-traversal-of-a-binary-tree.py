@@ -12,6 +12,7 @@ class Solution(object):
 
         while que:
             node, col, row = que.popleft()
+            #storing with row gives an edge while sorting wrto row
             col_map[col].append((row, node.val))
             minCol = min(minCol, col)
             maxCol = max(maxCol, col)
