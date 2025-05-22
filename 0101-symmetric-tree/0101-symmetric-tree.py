@@ -6,6 +6,8 @@
 #         self.right = right
 class Solution(object):
     def isSymmetric(self, root):
+        if root is None:
+            return True
         
         #function that checks the left and right sub tree  of the given tree or the part of the tree
         def symm(root1, root2):
