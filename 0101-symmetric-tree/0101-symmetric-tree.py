@@ -9,7 +9,7 @@ class Solution(object):
         if root is None:
             return True
         
-        #function that checks the left and right sub tree  of the given tree or the part of the tree
+        #function that checks the left and right sub tree of the given tree or the part of the tree
         def symm(root1, root2):
             if not root1 and not root2:
                 return True
@@ -17,6 +17,12 @@ class Solution(object):
                 return False
             if root1.val!=root2.val:
                 return False
+
+             #     1
+
+            #  2(p)  2(q)
+
+           # 3    4 4     3
 
             return symm(root1.left, root2.right) and symm(root1.right, root2.left)
 
