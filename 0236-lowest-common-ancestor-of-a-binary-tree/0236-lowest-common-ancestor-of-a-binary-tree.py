@@ -1,27 +1,41 @@
+# Definition for a binary tree node.
+# class TreeNode(object):
+#     def __init__(self, x):
+#         self.val = x
+#         self.left = None
+#         self.right = None
+
 class Solution(object):
     def lowestCommonAncestor(self, root, p, q):
 
-        # Helper function to find path from root to target node
-        def findPath(node, target, path):
-            if not node:
-                return False
-            path.append(node)
-            if node == target:
-                return True
-            if findPath(node.left, target, path) or findPath(node.right, target, path):
-                return True
-            path.pop()
-            return False
+        self.res1=[]
+        self.res2=[]
+        if root is None:
+            return None
 
-        path1, path2 = [], []
+        def DFS(node, x, temp1):
+            if node is None:
+                return 
+            temp1.append(node)
+            if node == x:
+                if len(self.res1) == 0:
+                    self.res1.extend(temp1) 
+                else:
+                    self.res2.extend(temp1)     
+            else:
+                DFS(node.left, x, temp1)
+                DFS(node.right, x, temp1)
+            temp1.pop()
+      
+        DFS(root, p, [])
+        DFS(root, q, [])
 
-        # Find paths from root to p and q
-        findPath(root, p, path1)
-        findPath(root, q, path2)
+        lca=0
 
-        # Compare the two paths to find the last common node
-        i = 0
-        while i < len(path1) and i < len(path2) and path1[i] == path2[i]:
-            i += 1
-
-        return path1[i - 1] if i > 0 else None
+        for pval, qval in zip(self.res1, self.res2):
+            if pval == qval:
+                lca=pval
+            else:
+                break
+            print(type(lca))
+        return lca
