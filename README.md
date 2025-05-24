@@ -24,6 +24,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [0151-reverse-words-in-a-string](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0151-reverse-words-in-a-string) |
 | [0205-isomorphic-strings](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0242-valid-anagram) |
+| [0257-binary-tree-paths](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0257-binary-tree-paths) |
 | [0387-first-unique-character-in-a-string](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0387-first-unique-character-in-a-string) |
 | [0402-remove-k-digits](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0402-remove-k-digits) |
 | [0424-longest-repeating-character-replacement](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0424-longest-repeating-character-replacement) |
@@ -423,6 +424,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [0144-binary-tree-preorder-traversal](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0199-binary-tree-right-side-view) |
+| [0257-binary-tree-paths](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0257-binary-tree-paths) |
 | [0543-diameter-of-binary-tree](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0543-diameter-of-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 ## Depth-First Search
@@ -439,6 +441,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [0144-binary-tree-preorder-traversal](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0199-binary-tree-right-side-view) |
+| [0257-binary-tree-paths](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0257-binary-tree-paths) |
 | [0543-diameter-of-binary-tree](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0543-diameter-of-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 ## Binary Tree
@@ -457,10 +460,12 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [0144-binary-tree-preorder-traversal](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0199-binary-tree-right-side-view) |
+| [0257-binary-tree-paths](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0257-binary-tree-paths) |
 | [0543-diameter-of-binary-tree](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0543-diameter-of-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 ## Backtracking
 |  |
 | ------- |
 | [0113-path-sum-ii](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0113-path-sum-ii) |
+| [0257-binary-tree-paths](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0257-binary-tree-paths) |
 <!---LeetCode Topics End-->
