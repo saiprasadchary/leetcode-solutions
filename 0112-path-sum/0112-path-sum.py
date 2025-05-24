@@ -19,7 +19,7 @@ class Solution(object):
             if node is None:
                 return
             self.sum1+=node.val
-            if isLeafNode(node) and self.sum1==targetSum:
+            if self.sum1==targetSum and isLeafNode(node):
                 self.flag=1
             else:
                 DFS(node.left)
