@@ -25,7 +25,7 @@ class Solution(object):
             else:
                 DFS(node.left)
                 DFS(node.right)
-            print(self.sum1)
+
             self.sum1-=node.val
             
             
