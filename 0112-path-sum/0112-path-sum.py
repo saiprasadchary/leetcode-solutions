@@ -7,10 +7,9 @@
 class Solution(object):
     def hasPathSum(self, root, targetSum):
         self.sum1=0
-        # if root is None and targetSum==0:
-        #     return False
-        # if root.val == targetSum:
-        #     return True
+        if root is None and targetSum==0:
+            return False
+        
         self.flag=0
 
         def isLeafNode(node):
