@@ -37,5 +37,4 @@ class Solution(object):
                 lca=pval
             else:
                 break
-            print(type(lca))
         return lca
