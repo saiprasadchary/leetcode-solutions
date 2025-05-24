@@ -29,7 +29,6 @@ class Solution(object):
         ans=[]
 
         for i in self.res:
-            print(i)
             an='->'.join(map(str, i))
             ans.append(an)
         
