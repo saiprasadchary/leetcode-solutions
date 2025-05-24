@@ -21,14 +21,12 @@ class Solution(object):
             self.sum1+=node.val
             if self.sum1==targetSum and isLeafNode(node):
                 self.flag=1
-                return True
+
             else:
                 DFS(node.left)
                 DFS(node.right)
-
             self.sum1-=node.val
-            
-            
+             
         DFS(root)
         return self.flag==1
 
