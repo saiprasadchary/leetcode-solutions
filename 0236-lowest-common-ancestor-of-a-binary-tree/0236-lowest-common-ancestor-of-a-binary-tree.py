@@ -16,6 +16,8 @@ class Solution(object):
         def DFS(node, x, temp1):
             if node is None:
                 return 
+            
+            #appeding the whole node, not just the value
             temp1.append(node)
             if node == x:
                 if not self.res1:
@@ -25,11 +27,11 @@ class Solution(object):
             else:
                 DFS(node.left, x, temp1)
                 DFS(node.right, x, temp1)
+
             temp1.pop()
       
         DFS(root, p, [])
         DFS(root, q, [])
-
         lca=0
 
         for pval, qval in zip(self.res1, self.res2):
