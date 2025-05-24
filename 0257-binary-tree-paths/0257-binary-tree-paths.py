@@ -16,9 +16,9 @@ class Solution(object):
         def DFS(node, temp):
             if node is None:
                 return
-            temp.append(node.val)
+            temp.append(str(node.val))
             if isLeafNode(node):
-                self.res.append(list(temp))
+                self.res.append("->".join(temp))
                 
             else:
                 DFS(node.left, temp)
@@ -26,13 +26,7 @@ class Solution(object):
             temp.pop()
                 
         DFS(root, [])
-        ans=[]
-
-        for i in self.res:
-            an='->'.join(map(str, i))
-            ans.append(an)
-        
-        return ans
+        return self.res
         
 
             
