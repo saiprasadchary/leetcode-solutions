@@ -18,7 +18,7 @@ class Solution(object):
                 return 
             temp1.append(node)
             if node == x:
-                if len(self.res1) == 0:
+                if not self.res1:
                     self.res1.extend(temp1) 
                 else:
                     self.res2.extend(temp1)     
