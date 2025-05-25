@@ -51,8 +51,11 @@ class Solution(object):
                 if node in parent_dict and parent_dict[node] not in visited:
                     que.append(parent_dict[node])
                     visited.add(parent_dict[node])
-        
-        return [node.val for node in que]
+        print(que)
+        res=[]
+        for i in que:
+            res.append(i.val)
+        return res
 
 
 
