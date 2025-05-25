@@ -17,7 +17,6 @@ class Solution(object):
         
         while que:
             startq=que[0][1]
-            print(startq)
             endq=que[-1][1]
     
             maxwidth = max(maxwidth, endq-startq+1)
@@ -25,7 +24,6 @@ class Solution(object):
             
             for i in range(n):
                 node, ind = que.popleft()
-
                 if node.left:
                     que.append((node.left, 2*ind+1))
                 if node.right:
