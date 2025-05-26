@@ -232,6 +232,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 ## Bit Manipulation
 |  |
 | ------- |
+| [0222-count-complete-tree-nodes](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0222-count-complete-tree-nodes) |
 | [0231-power-of-two](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0231-power-of-two) |
 ## Design
 |  |
@@ -368,6 +369,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [0004-median-of-two-sorted-arrays](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0004-median-of-two-sorted-arrays) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0209-minimum-size-subarray-sum](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0209-minimum-size-subarray-sum) |
+| [0222-count-complete-tree-nodes](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0222-count-complete-tree-nodes) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0658-find-k-closest-elements](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0658-find-k-closest-elements) |
 | [0668-kth-smallest-number-in-multiplication-table](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0668-kth-smallest-number-in-multiplication-table) |
@@ -427,6 +429,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [0144-binary-tree-preorder-traversal](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0199-binary-tree-right-side-view) |
+| [0222-count-complete-tree-nodes](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0222-count-complete-tree-nodes) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0257-binary-tree-paths](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0257-binary-tree-paths) |
 | [0543-diameter-of-binary-tree](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0543-diameter-of-binary-tree) |
@@ -469,6 +472,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [0144-binary-tree-preorder-traversal](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0199-binary-tree-right-side-view) |
+| [0222-count-complete-tree-nodes](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0222-count-complete-tree-nodes) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0257-binary-tree-paths](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0257-binary-tree-paths) |
 | [0543-diameter-of-binary-tree](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0543-diameter-of-binary-tree) |
