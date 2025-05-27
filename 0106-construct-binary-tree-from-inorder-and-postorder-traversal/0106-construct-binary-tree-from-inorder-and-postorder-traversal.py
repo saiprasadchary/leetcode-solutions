@@ -21,6 +21,5 @@ class Solution(object):
         root.left = self.buildTree(inorder[:mid], postorder[:mid])
         root.right = self.buildTree(inorder[mid+1:], postorder[mid:-1])
 
-
         return root
         
