@@ -79,10 +79,12 @@ class Solution(object):
                 curr=node.left
                 while curr.right and curr.right!=node:
                     curr=curr.right
+                    
                 if curr.right is None:
                     #thread establishing
                     curr.right=node
                     node=node.left
+
                 #thread link alreadily exists
                 else:
                     curr.right = None
