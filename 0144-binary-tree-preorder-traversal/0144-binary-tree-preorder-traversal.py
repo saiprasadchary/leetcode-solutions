@@ -12,19 +12,19 @@ class Solution(object):
         :rtype: List[int]
         """
         # using a stack 
-        res=[]
-        stack=[root]
-        if root is None:
-            return res
-        while stack:
-            node=stack.pop()
-            res.append(node.val)
-            #first comes right as we are using stack
-            if(node.right):
-                stack.append(node.right)
-            if(node.left):
-                stack.append(node.left)
-        return res
+        # res=[]
+        # stack=[root]
+        # if root is None:
+        #     return res
+        # while stack:
+        #     node=stack.pop()
+        #     res.append(node.val)
+        #     #first comes right as we are using stack
+        #     if(node.right):
+        #         stack.append(node.right)
+        #     if(node.left):
+        #         stack.append(node.left)
+        # return res
 
         # res=[]
         # if root is None:
@@ -59,6 +59,32 @@ class Solution(object):
     #     self.res.append(node.val)
     #     # Recurse left, then right
     #     self._preorder(node.left)
+
+        res=[]
+        node=root
+        while node:
+            if node.left is None:
+                res.append(node.val)
+                node=node.right
+            else:
+                curr=node.left
+                while curr.right and curr.right!=node:
+                    curr=curr.right
+                # link is not yet established
+                if curr.right is None:
+                    curr.right = node
+                    res.append(node.val)
+                    node=node.left
+                else:
+                    #link is alreadily established
+                    curr.right = None
+                    node=node.right       
+        return res
+
+
+
+
+
           
 
             
