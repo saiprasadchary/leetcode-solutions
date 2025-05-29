@@ -68,6 +68,7 @@ class Solution(object):
         #         node=node.right
         # return res
 
+        # Mooris inorder traversal
         node=root
         res=[]
 
