@@ -7,6 +7,7 @@
 class Solution(object):
     def searchBST(self, root, val):
 
+        #DFS similar approach
         if root is None or root.val==val:
             return root
         if val<root.val:
