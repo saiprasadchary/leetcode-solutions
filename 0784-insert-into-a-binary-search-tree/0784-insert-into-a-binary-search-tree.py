@@ -14,6 +14,7 @@ class Solution(object):
         node=root
         if root is None:
             return TreeNode(val)
+
         while node:
             if node.val <= val:
                 if node.right is None:
@@ -27,6 +28,5 @@ class Solution(object):
                     node.left = TreeNode(val)
                     break
                 else:
-                    node=node.left
-                    
+                    node=node.left        
         return root
