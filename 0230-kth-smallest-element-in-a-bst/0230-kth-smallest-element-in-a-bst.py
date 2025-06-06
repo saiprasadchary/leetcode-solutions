@@ -26,7 +26,7 @@ class Solution(object):
             DFS(node.right, k)
 
         DFS(root, k)
-        self.Temp_list.sort()
+
         if k<=len(self.Temp_list):
             return self.Temp_list[k-1]
         
