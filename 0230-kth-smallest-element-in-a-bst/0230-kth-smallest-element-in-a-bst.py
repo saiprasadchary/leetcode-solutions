@@ -20,8 +20,9 @@ class Solution(object):
         def DFS(node, k):
             if node is None:
                 return
-            self.Temp_list.append(node.val)
+            
             DFS(node.left, k)
+            self.Temp_list.append(node.val)
             DFS(node.right, k)
 
         DFS(root, k)
