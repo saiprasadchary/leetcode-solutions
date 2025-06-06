@@ -14,8 +14,7 @@ class Solution(object):
 
         if root is None:
             return None
-        self.res=0
-        self.cnt=0
+        self.res=[]
 
         #DFS approach(Pre-order)
         def DFS(node, k):
@@ -23,17 +22,17 @@ class Solution(object):
                 return
 
             DFS(node.left, k)
-            self.cnt+=1
-
-            if self.cnt==k:
-                self.res= node.val
+            if(len(self.res)>=k):
+                pass
+            else:
+                self.res.append(node.val)
 
             DFS(node.right, k)
 
         DFS(root, k)
-        #print(self.res, self.cnt)
+        print(self.res)
 
-        return self.res
+        return self.res[-1]
         
     
        
