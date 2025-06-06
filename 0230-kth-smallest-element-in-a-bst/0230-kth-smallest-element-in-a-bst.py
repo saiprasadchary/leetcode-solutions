@@ -14,21 +14,25 @@ class Solution(object):
 
         if root is None:
             return None
-        self.Temp_list=[]
+        self.res=[]
 
         #DFS approach(Pre-order)
         def DFS(node, k):
             if node is None:
                 return
-            
+
             DFS(node.left, k)
-            self.Temp_list.append(node.val)
+            if(len(self.res)>=k):
+                pass
+            else:
+                self.res.append(node.val)
+
             DFS(node.right, k)
 
         DFS(root, k)
+        print(self.res)
 
-        if k<=len(self.Temp_list):
-            return self.Temp_list[k-1]
+        return self.res[-1]
         
     
        
