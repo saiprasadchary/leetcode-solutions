@@ -17,10 +17,8 @@ class Solution(object):
         while node:
             if node.val>p.val and node.val>q.val:
                 node=node.left
-                print(node.left)
             elif node.val<p.val and node.val<q.val:
                 node=node.right
-                print(node.right)
             else:
                 return node
         return None
