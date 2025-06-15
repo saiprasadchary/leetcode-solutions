@@ -217,6 +217,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [0678-valid-parenthesis-string](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0678-valid-parenthesis-string) |
 | [0735-asteroid-collision](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0735-asteroid-collision) |
 | [0943-sum-of-subarray-minimums](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0943-sum-of-subarray-minimums) |
+| [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1078-remove-outermost-parentheses](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1078-remove-outermost-parentheses) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
 ## Dynamic Programming
@@ -313,6 +314,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [1014-k-closest-points-to-origin](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1014-k-closest-points-to-origin) |
 | [1034-subarrays-with-k-different-integers](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1034-subarrays-with-k-different-integers) |
 | [1046-max-consecutive-ones-iii](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1046-max-consecutive-ones-iii) |
+| [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1127-last-stone-weight](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1127-last-stone-weight) |
 | [1256-rank-transform-of-an-array](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1256-rank-transform-of-an-array) |
 | [1370-count-number-of-nice-subarrays](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1370-count-number-of-nice-subarrays) |
@@ -334,6 +336,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [0496-next-greater-element-i](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0503-next-greater-element-ii) |
 | [0943-sum-of-subarray-minimums](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0943-sum-of-subarray-minimums) |
+| [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 ## Simulation
 |  |
 | ------- |
@@ -454,6 +457,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [0784-insert-into-a-binary-search-tree](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0784-insert-into-a-binary-search-tree) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -510,6 +514,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [0784-insert-into-a-binary-search-tree](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0784-insert-into-a-binary-search-tree) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 ## Backtracking
 |  |
 | ------- |
@@ -524,4 +529,5 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [0450-delete-node-in-a-bst](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0450-delete-node-in-a-bst) |
 | [0783-search-in-a-binary-search-tree](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0783-search-in-a-binary-search-tree) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0784-insert-into-a-binary-search-tree) |
+| [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 <!---LeetCode Topics End-->
