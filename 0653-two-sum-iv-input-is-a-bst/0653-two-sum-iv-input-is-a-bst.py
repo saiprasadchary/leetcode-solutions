@@ -20,7 +20,6 @@ class Solution(object):
             DFS(node.right)
         
         DFS(root)
-        print(self.list)
         n=len(self.list)-1
         i=0
         while i<n:
