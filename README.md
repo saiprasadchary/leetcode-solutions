@@ -266,6 +266,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [0127-word-ladder](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0127-word-ladder) |
 | [0199-binary-tree-right-side-view](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0199-binary-tree-right-side-view) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0547-number-of-provinces](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0547-number-of-provinces) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0662-maximum-width-of-binary-tree) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
@@ -430,6 +431,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0128-longest-consecutive-sequence) |
+| [0547-number-of-provinces](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0547-number-of-provinces) |
 ## Tree
 |  |
 | ------- |
@@ -488,6 +490,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [0257-binary-tree-paths](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0257-binary-tree-paths) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0543-diameter-of-binary-tree) |
+| [0547-number-of-provinces](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0547-number-of-provinces) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0662-maximum-width-of-binary-tree) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
@@ -550,4 +553,8 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 |  |
 | ------- |
 | [0173-binary-search-tree-iterator](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0173-binary-search-tree-iterator) |
+## Graph
+|  |
+| ------- |
+| [0547-number-of-provinces](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0547-number-of-provinces) |
 <!---LeetCode Topics End-->
