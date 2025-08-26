@@ -1,17 +1,14 @@
 class Solution(object):
     def dfs(self, node, visited, adjList):
         visited[node] = 1
-        
         for neighbor in adjList[node]:
             if not visited[neighbor]:
                 self.dfs(neighbor, visited, adjList)
 
     def findCircleNum(self, isConnected):
         V = len(isConnected)
-        
         adjList=[]
-
-        for x in range(V):
+        for _ in range(V):
             adjList.append([])
 
         # Build adjacency list from adjacency matrix
@@ -25,7 +22,7 @@ class Solution(object):
         res = 0
 
         for i in range(V):
-            if visited[i] == 0:
+            if not visited[i]:
                 self.dfs(i, visited, adjList)
                 res += 1  # one connected component found
 
