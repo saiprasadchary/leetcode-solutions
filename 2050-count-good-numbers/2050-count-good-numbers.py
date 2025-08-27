@@ -6,19 +6,17 @@ class Solution(object):
         """
         MOD = 10**9 + 7
 
-        def mod_exp(base, exp, mod):
-            result = 1
-            while exp > 0:
-                if exp % 2 == 1:
-                    result = (result * base) % mod
-                base = (base * base) % mod
-                exp //= 2
-            return result
-
-        even_count = (n + 1) // 2  # Every other index starting from 0 (inclusive) for n elements
-        odd_count = n // 2         # Every other index starting from 1 for n elements
+        def dfs(pos, x):
+            if pos==0:
+                return 1
+            if pos==1:
+                return int(x*pos)
+            res=dfs(pos//2, x)
+            res=(res*res)%MOD
+            return res if pos%2==0 else (x*res)%MOD
         
-        even_choices = mod_exp(5, even_count, MOD)  # Even indexed positions can be filled with any of 5 even numbers
-        odd_choices = mod_exp(4, odd_count, MOD)    # Odd indexed positions (if any) can be filled with any of 4 primes
 
-        return (even_choices * odd_choices) % MOD
+        evenPos=(n+1)//2
+        oddPos=n//2
+        res=dfs(evenPos, 5)*dfs(oddPos, 4)
+        return res%MOD
