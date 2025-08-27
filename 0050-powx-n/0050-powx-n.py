@@ -11,8 +11,7 @@ class Solution(object):
             if n==0:
                 return 1
             
-            res=helper(x, n//2)
-            res=res*res
+            res=helper(x*x, n//2)
             return res if n%2==0 else x*res
 
         res=helper(x, abs(n))
