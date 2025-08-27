@@ -25,6 +25,7 @@ class Solution(object):
             res=res*10+int(s[i]);
             i+=1;
 
+        #mentioned in the 4. Rounding
         if sign==1 and res>(2**31-1):
             res = 2**31-1
         if sign==-1 and res>(2**31):
