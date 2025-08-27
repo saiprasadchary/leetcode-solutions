@@ -7,6 +7,6 @@ class Solution(object):
         """
         if x==0:
             return 0
-        elif x!=0 and n==0:
+        if n==0:
             return 1
         return x**n
