@@ -4,7 +4,7 @@ class Solution(object):
         if opened ==0 and closed==0:
             res.append(curr)
         
-        if not curr or opened:          
+        if opened:          
             self.helper(n, opened-1, closed, curr+"(", res)
         
         if curr and curr[-1]==")" and opened==closed:
