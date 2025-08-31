@@ -7,17 +7,17 @@ class Solution(object):
         if opened:          
             self.helper(opened-1, closed, curr+"(", res)
 
-        if opened<closed:
-            self.helper(opened, closed-1, curr+")", res)
+        # if opened<closed:
+        #     self.helper(opened, closed-1, curr+")", res)
         
-        # if curr and curr[-1]==")" and opened==closed:
-        #     pass
+        if curr and curr[-1]==")" and opened==closed:
+            pass
 
-        # elif curr and curr[-1]==")" and opened<closed:
-        #     self.helper(n, opened, closed-1, curr+")", res)
+        elif curr and curr[-1]==")" and opened<closed:
+            self.helper(opened, closed-1, curr+")", res)
 
-        # elif curr and closed:
-        #     self.helper(n, opened, closed-1, curr+")", res)
+        elif curr and closed:
+            self.helper(opened, closed-1, curr+")", res)
 
 
     def generateParenthesis(self, n):
