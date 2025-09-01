@@ -3,7 +3,7 @@ class Solution(object):
     def dfs_helper(self, nums, i, sublist, op):
         # hitting the base case with the branch length exceeded or equals to the length(language wise)
         if i==len(nums):
-            op.append(sublist[:])
+            op.append(list(sublist))
             return
         
         #pick case
