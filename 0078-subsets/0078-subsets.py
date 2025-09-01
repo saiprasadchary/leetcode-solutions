@@ -3,7 +3,8 @@ class Solution(object):
     def dfs_helper(self, nums, i, sublist, op):
         # hitting the base case with the branch length exceeded or equals to the length(language wise)
         if i==len(nums):
-            op.append(list(sublist))
+            # here we are appending the list copy of that particular instance not the reference of list 
+            op.append(sublist[:])
             return
         
         #pick case
