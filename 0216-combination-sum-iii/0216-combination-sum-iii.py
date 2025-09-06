@@ -6,15 +6,15 @@ class Solution(object):
                 res.append(subset[:])
             else:
                 return
-        
-        if len(subset)>k:
-            return
+
         
         for ele in range(element, len(arr)+1):
+
+            if ele<=total:
             
-            subset.append(ele)
-            self.dfs_helper(ele+1, arr, subset, res, total-ele, k)
-            subset.pop()
+                subset.append(ele)
+                self.dfs_helper(ele+1, arr, subset, res, total-ele, k)
+                subset.pop()
 
 
     def combinationSum3(self, k, n):
