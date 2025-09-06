@@ -7,6 +7,9 @@ class Solution(object):
             else:
                 return
         
+        if len(subset)>k:
+            return
+        
         for ele in range(element, len(arr)+1):
             
             subset.append(ele)
