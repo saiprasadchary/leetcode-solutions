@@ -11,7 +11,6 @@ class Solution(object):
         for ele in range(element, len(arr)+1):
 
             if ele<=total:
-            
                 subset.append(ele)
                 self.dfs_helper(ele+1, arr, subset, res, total-ele, k)
                 subset.pop()
