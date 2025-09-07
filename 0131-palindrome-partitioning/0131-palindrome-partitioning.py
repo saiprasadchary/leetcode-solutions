@@ -2,10 +2,11 @@ class Solution(object):
 
     def IsPalindrome(self, partitions):
         n=len(partitions)
-        for i in range(n//2):
-            if(partitions[i]!=partitions[n-i-1]):
-                return False
-        return True
+        return partitions==partitions[::-1]
+        # for i in range(n//2):
+        #     if(partitions[i]!=partitions[n-i-1]):
+        #         return False
+        # return True
 
     def dfs_helper(self, ind, s, substr, res):
 
