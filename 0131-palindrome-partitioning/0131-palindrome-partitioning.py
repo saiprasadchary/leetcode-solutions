@@ -10,7 +10,6 @@ class Solution(object):
     def dfs_helper(self, ind, s, substr, res):
 
         if(ind==len(s)):
-            print(substr)
             res.append(substr[:])
             return
 
