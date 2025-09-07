@@ -1,7 +1,6 @@
 class Solution(object):
 
     def IsPalindrome(self, partitions):
-        n=len(partitions)
         return partitions==partitions[::-1]
         # for i in range(n//2):
         #     if(partitions[i]!=partitions[n-i-1]):
