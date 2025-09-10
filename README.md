@@ -22,6 +22,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [0017-letter-combinations-of-a-phone-number](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0020-valid-parentheses](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0022-generate-parentheses) |
+| [0079-word-search](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0079-word-search) |
 | [0127-word-ladder](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0127-word-ladder) |
 | [0131-palindrome-partitioning](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0131-palindrome-partitioning) |
 | [0151-reverse-words-in-a-string](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0151-reverse-words-in-a-string) |
@@ -294,6 +295,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [0073-set-matrix-zeroes](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0079-word-search) |
 | [0084-largest-rectangle-in-histogram](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0084-largest-rectangle-in-histogram) |
 | [0090-subsets-ii](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0090-subsets-ii) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
@@ -365,6 +367,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | ------- |
 | [0048-rotate-image](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0048-rotate-image) |
 | [0073-set-matrix-zeroes](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0073-set-matrix-zeroes) |
+| [0079-word-search](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0079-word-search) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 ## Linked List
 |  |
@@ -484,6 +487,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 ## Depth-First Search
 |  |
 | ------- |
+| [0079-word-search](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0079-word-search) |
 | [0094-binary-tree-inorder-traversal](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0094-binary-tree-inorder-traversal) |
 | [0098-validate-binary-search-tree](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0098-validate-binary-search-tree) |
 | [0099-recover-binary-search-tree](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0099-recover-binary-search-tree) |
@@ -552,6 +556,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [0039-combination-sum](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0040-combination-sum-ii) |
 | [0078-subsets](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0090-subsets-ii) |
 | [0113-path-sum-ii](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0113-path-sum-ii) |
 | [0131-palindrome-partitioning](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0131-palindrome-partitioning) |
