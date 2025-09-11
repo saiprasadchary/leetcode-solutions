@@ -9,15 +9,28 @@ class Solution(object):
         :type head: Optional[ListNode]
         :rtype: Optional[ListNode]
         """
-        stack=[];
-        curr=head;
+
+        curr=head
+        prev=None
+
         while curr:
-            stack.append(curr.val);
-            curr=curr.next;
-        curr=head;
-        while curr:
-            curr.val=stack.pop();
-            curr=curr.next;
-        return head;
+            next_ptr=curr.next
+            curr.next=prev
+            prev=curr
+            curr=next_ptr
+        
+        return prev
+
+        # soln using an external stack
+        # stack=[];
+        # curr=head;
+        # while curr:
+        #     stack.append(curr.val);
+        #     curr=curr.next;
+        # curr=head;
+        # while curr:
+        #     curr.val=stack.pop();
+        #     curr=curr.next;
+        # return head;
 
 
