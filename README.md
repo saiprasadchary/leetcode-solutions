@@ -290,6 +290,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [0040-combination-sum-ii](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0040-combination-sum-ii) |
 | [0045-jump-game-ii](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0045-jump-game-ii) |
 | [0048-rotate-image](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0048-rotate-image) |
+| [0051-n-queens](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0051-n-queens) |
 | [0055-jump-game](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0057-insert-interval) |
@@ -557,6 +558,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [0022-generate-parentheses](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0022-generate-parentheses) |
 | [0039-combination-sum](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0040-combination-sum-ii) |
+| [0051-n-queens](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0051-n-queens) |
 | [0078-subsets](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0090-subsets-ii) |
