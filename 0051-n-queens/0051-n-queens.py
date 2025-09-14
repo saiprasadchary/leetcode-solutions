@@ -3,19 +3,20 @@ class Solution(object):
     def isSafe(self, row, col, board, n):
         dupRow=row
         dupCol=col
+        #upper diagonal left check
         while row>= 0 and col >= 0:
             if board[row][col]=='Q':
                 return False
             row-=1
             col-=1
-        
+        #left check
         col=dupCol
         row=dupRow
         while col>=0:
             if board[row][col]=="Q":
                 return False
             col-=1
-
+        #lower diagonal left check
         col=dupCol
         row=dupRow  
         while row < n and col >= 0:
