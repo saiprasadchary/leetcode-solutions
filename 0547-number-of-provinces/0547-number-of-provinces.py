@@ -1,4 +1,6 @@
 class Solution(object):
+
+    #dfs fucntion to check the 
     def dfs(self, node, visited, adjList):
         visited[node] = 1
         for neighbor in adjList[node]:
@@ -13,8 +15,8 @@ class Solution(object):
 
         # Build adjacency list from adjacency matrix
         for i in range(V):
-            for j in range(V):
-                if isConnected[i][j] == 1 and i != j:
+            for j in range(i+1, V):
+                if isConnected[i][j] == 1:
                     adjList[i].append(j)
                     adjList[j].append(i)
 
@@ -22,7 +24,7 @@ class Solution(object):
         res = 0
 
         for i in range(V):
-            if not visited[i]:
+            if visited[i] == 0:
                 self.dfs(i, visited, adjList)
                 res += 1  # one connected component found
 
