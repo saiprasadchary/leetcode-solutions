@@ -1,6 +1,6 @@
 class Solution(object):
 
-    #dfs fucntion to check the 
+    #dfs function to check the 
     def dfs(self, node, visited, adjList):
         visited[node] = 1
         for neighbor in adjList[node]:
