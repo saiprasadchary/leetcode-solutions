@@ -285,6 +285,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [0662-maximum-width-of-binary-tree](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0662-maximum-width-of-binary-tree) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1036-rotting-oranges](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1036-rotting-oranges) |
 ## Array
 |  |
 | ------- |
@@ -341,6 +342,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [0966-binary-subarrays-with-sum](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0966-binary-subarrays-with-sum) |
 | [1014-k-closest-points-to-origin](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1014-k-closest-points-to-origin) |
 | [1034-subarrays-with-k-different-integers](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1034-subarrays-with-k-different-integers) |
+| [1036-rotting-oranges](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1036-rotting-oranges) |
 | [1046-max-consecutive-ones-iii](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1046-max-consecutive-ones-iii) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1127-last-stone-weight](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1127-last-stone-weight) |
@@ -376,6 +378,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [0073-set-matrix-zeroes](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0073-set-matrix-zeroes) |
 | [0079-word-search](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0079-word-search) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
+| [1036-rotting-oranges](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1036-rotting-oranges) |
 ## Linked List
 |  |
 | ------- |
