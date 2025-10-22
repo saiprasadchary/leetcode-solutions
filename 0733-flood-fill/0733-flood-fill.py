@@ -26,7 +26,6 @@ class Solution(object):
                 nr=ro+r
                 nc=co+c
                 if 0<=nr<ROWS and 0<=nc<COLS and image[nr][nc]==startColor:
-                    print(nr, nc)
                     que.append((nr, nc))
                     image[nr][nc]=color
         return image
