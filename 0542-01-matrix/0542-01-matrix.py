@@ -8,11 +8,9 @@ class Solution(object):
         ROWS=len(mat)
         COLS=len(mat[0])
         visited=[]
-        res=[]
 
         for _ in range(ROWS):
             visited.append([0]*COLS)
-            res.append([0]*COLS)
 
         que=deque()
         level=0
@@ -31,9 +29,9 @@ class Solution(object):
                 ncol=co+c
                 if 0<=nrow<ROWS and 0<=ncol<COLS and visited[nrow][ncol]==0:
                     visited[nrow][ncol]=1
-                    res[nrow][ncol]=level+1
+                    mat[nrow][ncol]=level+1
                     que.append((nrow, ncol, level+1))
-        return res
+        return mat
                 
 
 
