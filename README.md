@@ -245,6 +245,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [0131-palindrome-partitioning](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0131-palindrome-partitioning) |
 | [0139-word-break](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0139-word-break) |
 | [0435-non-overlapping-intervals](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0435-non-overlapping-intervals) |
+| [0542-01-matrix](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0542-01-matrix) |
 | [0678-valid-parenthesis-string](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0678-valid-parenthesis-string) |
 | [0943-sum-of-subarray-minimums](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0943-sum-of-subarray-minimums) |
 | [1764-maximum-repeating-substring](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1764-maximum-repeating-substring) |
@@ -281,6 +282,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [0199-binary-tree-right-side-view](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0199-binary-tree-right-side-view) |
 | [0200-number-of-islands](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0200-number-of-islands) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0542-01-matrix](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0547-number-of-provinces) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0662-maximum-width-of-binary-tree) |
@@ -328,6 +330,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [0485-max-consecutive-ones](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0485-max-consecutive-ones) |
 | [0496-next-greater-element-i](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0503-next-greater-element-ii) |
+| [0542-01-matrix](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0542-01-matrix) |
 | [0560-subarray-sum-equals-k](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0560-subarray-sum-equals-k) |
 | [0621-task-scheduler](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0621-task-scheduler) |
 | [0643-maximum-average-subarray-i](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0643-maximum-average-subarray-i) |
@@ -383,6 +386,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [0079-word-search](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0079-word-search) |
 | [0200-number-of-islands](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0200-number-of-islands) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
+| [0542-01-matrix](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0733-flood-fill) |
 | [1036-rotting-oranges](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1036-rotting-oranges) |
 ## Linked List
