@@ -7,15 +7,15 @@ class Solution(object):
         :type color: int
         :rtype: List[List[int]]
         """
+        if image[sr][sc]==color:
+            return image
+
         ROWS=len(image)
         COLS=len(image[0])
         que=deque()
         startColor=image[sr][sc]
-        
-        if image[sr][sc]==color:
-            return image
-        else:
-            image[sr][sc]=color
+    
+        image[sr][sc]=color
 
         dimensions=[(0,1), (1,0), (-1,0), (0,-1)]
         que.append((sr, sc))
