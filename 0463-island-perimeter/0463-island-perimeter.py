@@ -7,7 +7,6 @@ class Solution(object):
             ncol=co+c
             if nrow < 0 or nrow >= ROW or ncol < 0 or ncol >= COL:
                 sides += 1
-                print(sides, "hi")
             elif grid[nrow][ncol]==0:
                 sides+=1
             
