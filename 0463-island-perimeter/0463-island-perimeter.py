@@ -1,7 +1,6 @@
 class Solution(object):
-    def dfs(self, r, c, ROW, COL, grid):
+    def dfs(self, r, c, ROW, COL, grid, dimensions):
         sides=0
-        dimensions=[(1,0), (0,1), (-1, 0), (0, -1)]
         for ro, co in dimensions:
             nrow=ro+r
             ncol=co+c
@@ -9,7 +8,6 @@ class Solution(object):
                 sides += 1
             elif grid[nrow][ncol]==0:
                 sides+=1
-            
         return sides
             
     def islandPerimeter(self, grid):
@@ -19,12 +17,12 @@ class Solution(object):
         """
         ROWS=len(grid)
         COLS=len(grid[0])
-        cnt=0
         sides=0
+        dimensions=[(1,0), (0,1), (-1, 0), (0, -1)]
 
         for row in range(ROWS):
             for col in range(COLS):
                 if(grid[row][col]==1):
-                    sides+=self.dfs(row, col, ROWS, COLS, grid)
+                    sides+=self.dfs(row, col, ROWS, COLS, grid, dimensions)
                     
         return sides
