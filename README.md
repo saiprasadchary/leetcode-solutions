@@ -292,6 +292,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1036-rotting-oranges](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1036-rotting-oranges) |
+| [1073-number-of-enclaves](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1073-number-of-enclaves) |
 ## Array
 |  |
 | ------- |
@@ -356,6 +357,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [1036-rotting-oranges](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1036-rotting-oranges) |
 | [1046-max-consecutive-ones-iii](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1046-max-consecutive-ones-iii) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
+| [1073-number-of-enclaves](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1073-number-of-enclaves) |
 | [1127-last-stone-weight](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1127-last-stone-weight) |
 | [1256-rank-transform-of-an-array](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1256-rank-transform-of-an-array) |
 | [1370-count-number-of-nice-subarrays](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1370-count-number-of-nice-subarrays) |
@@ -395,6 +397,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [0542-01-matrix](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0733-flood-fill) |
 | [1036-rotting-oranges](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1036-rotting-oranges) |
+| [1073-number-of-enclaves](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1073-number-of-enclaves) |
 ## Linked List
 |  |
 | ------- |
@@ -477,6 +480,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [0130-surrounded-regions](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0547-number-of-provinces) |
+| [1073-number-of-enclaves](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1073-number-of-enclaves) |
 ## Tree
 |  |
 | ------- |
@@ -545,6 +549,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [0733-flood-fill](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0733-flood-fill) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1073-number-of-enclaves](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1073-number-of-enclaves) |
 ## Binary Tree
 |  |
 | ------- |
