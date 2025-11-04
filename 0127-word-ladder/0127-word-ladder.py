@@ -11,7 +11,6 @@ class Solution:
             if q == endWord:
                 return level
             for ind in range(word_len):
-                temp=""
                 for ch in range(97, 123):
                     temp=q[:ind]+chr(ch)+q[ind+1:]
                     if temp in wordList:
