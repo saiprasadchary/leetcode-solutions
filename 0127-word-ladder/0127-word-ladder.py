@@ -11,12 +11,11 @@ class Solution:
             if q == endWord:
                 return level
             for ind in range(word_len):
-                for ch in range(97, 123):
-                    temp=q[:ind]+chr(ch)+q[ind+1:]
+                for ch in 'abcdefghijklmnopqrstuvwxyz':
+                    temp=q[:ind]+ch+q[ind+1:]
                     if temp in wordList:
                         wordList.remove(temp)
                         que.append((temp, level+1))
-
         return 0
 
 
