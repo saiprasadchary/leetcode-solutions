@@ -1,9 +1,9 @@
 from collections import deque
 class Solution:
     def ladderLength(self, beginWord, endWord, wordList):
-        word_len=len(beginWord)
         if endWord not in wordList:
             return 0
+        word_len=len(beginWord)
         que=deque()
         que.append((beginWord, 1))
         wordList=set(wordList)
