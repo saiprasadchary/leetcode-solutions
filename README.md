@@ -292,6 +292,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0662-maximum-width-of-binary-tree) |
 | [0733-flood-fill](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0733-flood-fill) |
+| [0785-is-graph-bipartite](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0785-is-graph-bipartite) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1020-number-of-enclaves](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1020-number-of-enclaves) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
@@ -486,6 +487,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [0130-surrounded-regions](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0547-number-of-provinces) |
+| [0785-is-graph-bipartite](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0785-is-graph-bipartite) |
 | [1020-number-of-enclaves](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1020-number-of-enclaves) |
 | [1073-number-of-enclaves](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1073-number-of-enclaves) |
 ## Tree
@@ -554,6 +556,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0662-maximum-width-of-binary-tree) |
 | [0733-flood-fill](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0733-flood-fill) |
+| [0785-is-graph-bipartite](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0785-is-graph-bipartite) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1020-number-of-enclaves](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1020-number-of-enclaves) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
@@ -631,6 +634,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 |  |
 | ------- |
 | [0547-number-of-provinces](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0547-number-of-provinces) |
+| [0785-is-graph-bipartite](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0785-is-graph-bipartite) |
 ## Memoization
 |  |
 | ------- |
