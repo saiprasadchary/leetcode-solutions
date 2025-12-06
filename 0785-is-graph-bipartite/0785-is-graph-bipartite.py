@@ -23,7 +23,6 @@ class Solution(object):
                         visited[neighbor]=1-visited[curr]
                         que.append(neighbor)
                     elif visited[neighbor]!=1-visited[curr]:
-                        print(visited)
                         return False
         return True
 
