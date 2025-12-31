@@ -41,9 +41,7 @@ class Solution(object):
 
     def isBipartite(self, graph):
         ROW=len(graph)
-        visited=[]
-        for i in range(ROW):
-            visited.append(-1)
+        visited=[-1]*ROW
 
         for i in range(ROW):
             if visited[i]==-1:
