@@ -639,4 +639,12 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 |  |
 | ------- |
 | [0139-word-break](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0139-word-break) |
+## Union-Find
+|  |
+| ------- |
+| [0785-is-graph-bipartite](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0785-is-graph-bipartite) |
+## Graph Theory
+|  |
+| ------- |
+| [0785-is-graph-bipartite](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0785-is-graph-bipartite) |
 <!---LeetCode Topics End-->
