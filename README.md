@@ -643,6 +643,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 |  |
 | ------- |
 | [0785-is-graph-bipartite](https://github.com/saiprasadchary/leetcode-solutions/tree/master/0785-is-graph-bipartite) |
+| [1020-number-of-enclaves](https://github.com/saiprasadchary/leetcode-solutions/tree/master/1020-number-of-enclaves) |
 ## Graph Theory
 |  |
 | ------- |
