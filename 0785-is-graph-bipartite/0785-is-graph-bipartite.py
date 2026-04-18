@@ -1,60 +1,42 @@
 class Solution(object):
 
-    # BFS solution:
-    # from collections import deque
-    # def isBipartite(self, graph):
-    #     """
-    #     :type graph: List[List[int]]
-    #     :rtype: bool
-    #     """
-    #     ROWS=len(graph)
-    #     if ROWS is None:
-    #         return True
-    #     visited=[-1]*ROWS
+    from collections import deque
 
-    #     for node in range(ROWS):
-    #         if visited[node] !=-1:
-    #             continue
-    #         que=deque()
-    #         que.append(node)
-    #         visited[node]=0
-    #         while que:
-    #             curr=que.popleft()
-    #             for neighbor in graph[curr]:
-    #                 if visited[neighbor]==-1:
-    #                     visited[neighbor]=1-visited[curr]
-    #                     que.append(neighbor)
-    #                 elif visited[neighbor]==visited[curr]:
-    #                     return False
-    #     return True
-
-    #DFS solution:
-    def dfs(self, node, col, graph, visited):
-        visited[node]=col
-        for neighbor in graph[node]:
-            if visited[neighbor]==-1:
-                if self.dfs(neighbor, 1-col, graph, visited)== False:
+    def check_bp(self, start, graph, visited, que):
+        while que:
+            parent=que.popleft()
+            for node in graph[parent]:
+                # fresh visit
+                if visited[node]==-1:
+                    visited[node]=1-visited[parent]
+                    que.append(node)
+                elif visited[node]==visited[parent]:
                     return False
-            elif visited[neighbor]==col:
-                return False
         return True
 
     def isBipartite(self, graph):
-        ROW=len(graph)
-        visited=[-1]*ROW
+        """
+        :type graph: List[List[int]]
+        :rtype: bool
+        """
+        #bfs approach
+        ROWS=len(graph)
+        if ROWS is None or ROWS == 1:
+            return True
+        #the concept of visited array comes in handy for the cyclic graph
+        visited=[-1]*ROWS
 
-        for i in range(ROW):
-            if visited[i]==-1:
-                if self.dfs(i, 0, graph, visited)== False:
-                    return False 
+        for start in range(ROWS):
+            if len(graph[start]) is None:
+                continue
+            que=deque()
+            que.append(start) # 0-based indexing
+            #marking for the coloring the first parent node i.e 0
+            visited[0]=0
+            if self.check_bp(start, graph, visited, que)==False:
+                return False
         return True
-        
 
 
+                    
 
-
-
-
-
-        
-        
