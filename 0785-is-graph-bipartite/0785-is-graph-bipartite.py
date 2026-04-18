@@ -29,6 +29,8 @@ class Solution(object):
         for start in range(ROWS):
             if len(graph[start]) is None:
                 continue
+            if visited[start]!=-1:
+                continue
             que=deque()
             que.append(start) # 0-based indexing
             #marking for the coloring the first parent node i.e 0
